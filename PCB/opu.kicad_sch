@@ -782,18 +782,883 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:BSS138"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS138"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSS138_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BSS138_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:BSS84"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS84"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSS84_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BSS84_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 81.28 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d44c73a-d6f8-48b5-8d89-b1718aca7a9e")
+	)
+	(junction
+		(at 88.9 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "499f1978-f90a-4d3c-ae12-fc611871f882")
+	)
+	(junction
+		(at 88.9 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "960b8da6-8f38-4724-a7d4-0de8cae0d984")
+	)
+	(junction
+		(at 80.01 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97999173-7898-4f8b-a115-b6e1a1d8ff03")
 	)
 	(no_connect
-		(at 104.14 114.3)
+		(at 123.19 100.33)
 		(uuid "3d8491da-873a-408b-97f0-b3592562b0e5")
 	)
 	(no_connect
-		(at 104.14 106.68)
+		(at 123.19 92.71)
 		(uuid "90cf3f4f-895e-4e5e-a050-7ff0c48a1aa7")
 	)
+	(wire
+		(pts
+			(xy 88.9 109.22) (xy 88.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9456c7-2043-4c6e-9394-3422e32af499")
+	)
+	(wire
+		(pts
+			(xy 93.98 100.33) (xy 110.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "282a512f-6002-477d-b6b1-3b774fc3b6b2")
+	)
+	(wire
+		(pts
+			(xy 88.9 127) (xy 81.28 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b4d780-64a9-4768-a162-66edbd6e4e3f")
+	)
+	(wire
+		(pts
+			(xy 91.44 127) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58175105-ad79-446c-906d-c366b6e1d2da")
+	)
+	(wire
+		(pts
+			(xy 81.28 116.84) (xy 81.28 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d52f4a2-f7f9-4c22-92fe-fb96bcddbc6c")
+	)
+	(wire
+		(pts
+			(xy 81.28 127) (xy 81.28 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606ca3f3-6cee-4f7e-ba1e-c366e41228d0")
+	)
+	(wire
+		(pts
+			(xy 80.01 109.22) (xy 88.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6268f043-f996-4a2b-8ee1-138ef9453edd")
+	)
+	(wire
+		(pts
+			(xy 80.01 100.33) (xy 83.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdc29ad-ea6b-4975-a137-369843f71f71")
+	)
+	(wire
+		(pts
+			(xy 74.93 100.33) (xy 80.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90f162d-3476-4d3c-bc52-bf5f76b3790d")
+	)
+	(wire
+		(pts
+			(xy 88.9 107.95) (xy 88.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd92560b-5de6-4706-b591-5ac3eeeaa459")
+	)
+	(wire
+		(pts
+			(xy 80.01 107.95) (xy 80.01 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40a1a4f-79d3-4e93-9af8-9cae76636cc3")
+	)
+	(wire
+		(pts
+			(xy 74.93 116.84) (xy 81.28 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "defd2979-0554-41c6-8bfb-73ef2e943ef6")
+	)
+	(wire
+		(pts
+			(xy 88.9 121.92) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3832742-1668-4911-8681-1495721a9b81")
+	)
 	(image
-		(at 193.04 100.33)
-		(scale 1.80649)
+		(at 203.454 99.314)
+		(scale 2.27311)
 		(uuid "25158f10-ff8c-46f7-a866-0d3a7343ee0f")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAloAAAF4CAIAAAADtcAdAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOydd1xT9/7/T5KTPUlCAgkzYc+wQRAQHDhQsVap46q1ju5xva297a+t9va2t9Z6a6u2tVXrFjdO"
@@ -2863,7 +3728,7 @@
 	)
 	(text "This connector needs to be flipped to the bottom layer on the PCB\n"
 		(exclude_from_sim no)
-		(at 99.314 122.682 0)
+		(at 101.346 57.912 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2873,7 +3738,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 104.14 104.14 0)
+		(at 123.19 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2883,9 +3748,33 @@
 		)
 		(uuid "02787dc4-d0da-45e9-a792-bea94382c132")
 	)
+	(hierarchical_label "HIGH_FREQUENCY_MODE_EN"
+		(shape input)
+		(at 74.93 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "0abfb30b-94c5-4666-81ec-579784ec16cc")
+	)
+	(hierarchical_label "VR-CD"
+		(shape input)
+		(at 110.49 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "120dfc2d-83ee-4710-97a1-2f9dadae0903")
+	)
 	(hierarchical_label "F-"
 		(shape input)
-		(at 91.44 88.9 180)
+		(at 110.49 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2897,7 +3786,7 @@
 	)
 	(hierarchical_label "GND_PD"
 		(shape input)
-		(at 104.14 101.6 0)
+		(at 123.19 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2907,9 +3796,21 @@
 		)
 		(uuid "1bb8b8c1-b958-4315-9898-8ff8c59d368a")
 	)
+	(hierarchical_label "T-"
+		(shape input)
+		(at 123.19 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "2091f4bd-ac94-4142-bb91-5027ba4dafe0")
+	)
 	(hierarchical_label "F+"
 		(shape input)
-		(at 104.14 88.9 0)
+		(at 123.19 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2921,7 +3822,7 @@
 	)
 	(hierarchical_label "RF"
 		(shape output)
-		(at 104.14 96.52 0)
+		(at 123.19 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2931,9 +3832,45 @@
 		)
 		(uuid "29c66765-c536-456e-9f44-e6b951f22bac")
 	)
+	(hierarchical_label "T+"
+		(shape input)
+		(at 110.49 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "4e5033c4-ee9e-435f-b501-decd1c2ddaa1")
+	)
+	(hierarchical_label "CD-LD"
+		(shape input)
+		(at 110.49 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "51e92bf1-4fc0-4dbb-a25f-604552ca3e86")
+	)
+	(hierarchical_label "GND_LD"
+		(shape input)
+		(at 91.44 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "613cd341-e5b3-481e-b779-52b4ea54f1ed")
+	)
 	(hierarchical_label "B{slash}b"
 		(shape output)
-		(at 104.14 99.06 0)
+		(at 123.19 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2945,7 +3882,7 @@
 	)
 	(hierarchical_label "VC(VREF)"
 		(shape output)
-		(at 91.44 104.14 180)
+		(at 110.49 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2955,9 +3892,21 @@
 		)
 		(uuid "8cdf6e7c-93b6-4278-a1c6-b2bcd649389d")
 	)
+	(hierarchical_label "DVD_LD"
+		(shape input)
+		(at 74.93 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "ab79d033-6f15-42f5-bbb4-7d30924269a3")
+	)
 	(hierarchical_label "MD"
 		(shape output)
-		(at 104.14 111.76 0)
+		(at 123.19 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2967,9 +3916,21 @@
 		)
 		(uuid "cc8c110b-ace3-498a-b491-b98bf0310fb8")
 	)
+	(hierarchical_label "VR-DVD"
+		(shape input)
+		(at 123.19 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "d97c4f79-bef5-4018-b078-058fb5946644")
+	)
 	(hierarchical_label "DVD_LD"
 		(shape input)
-		(at 91.44 116.84 180)
+		(at 110.49 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2981,7 +3942,7 @@
 	)
 	(hierarchical_label "D{slash}d"
 		(shape output)
-		(at 104.14 93.98 0)
+		(at 123.19 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2993,7 +3954,7 @@
 	)
 	(hierarchical_label "CD{slash}DVD_SW"
 		(shape input)
-		(at 91.44 96.52 180)
+		(at 110.49 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3005,7 +3966,7 @@
 	)
 	(hierarchical_label "GND_LD"
 		(shape input)
-		(at 104.14 116.84 0)
+		(at 123.19 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3015,9 +3976,33 @@
 		)
 		(uuid "e430df30-6827-4e1f-9aae-d3569be59815")
 	)
+	(hierarchical_label "F"
+		(shape input)
+		(at 110.49 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "eeb8a6d2-1ae0-42ab-8e8c-6cd2bc233432")
+	)
+	(hierarchical_label "E"
+		(shape input)
+		(at 110.49 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "f214e22f-768f-4912-b36b-f1124a846593")
+	)
 	(hierarchical_label "A{slash}a"
 		(shape output)
-		(at 91.44 99.06 180)
+		(at 110.49 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3029,7 +4014,7 @@
 	)
 	(hierarchical_label "C{slash}c"
 		(shape output)
-		(at 91.44 93.98 180)
+		(at 110.49 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3040,33 +4025,109 @@
 		(uuid "fd14fb12-25d4-47ef-a146-f199999cf7b5")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x12_Odd_Even")
-		(at 96.52 101.6 0)
+		(lib_id "Transistor_FET:BSS84")
+		(at 88.9 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "688bc53c-8ce6-4379-9a8a-d9ce9c571216")
-		(property "Reference" "J2"
-			(at 97.79 82.55 0)
+		(uuid "164bdcd8-b997-437a-85fa-3042870832e0")
+		(property "Reference" "Q2"
+			(at 88.9 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_02x12_Odd_Even"
-			(at 97.79 85.09 0)
+		(property "Value" "BSS84"
+			(at 88.9 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical"
-			(at 96.52 101.6 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 90.805 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d05922f-6e47-42a9-adde-1529b52fae84")
+		)
+		(pin "1"
+			(uuid "6e52ae31-7fbc-4c3e-b91a-b672ed1eb9bd")
+		)
+		(pin "3"
+			(uuid "38b210c2-1960-4824-ad91-edee5d03adc1")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/441f4cb6-fbcc-4f11-b3b3-1ad3951f46a3"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a13407f-e741-434f-92a3-ab6d358c0fdc")
+		(property "Reference" "R2"
+			(at 83.82 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 83.82 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 79.502 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +4136,145 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 101.6 0)
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64876c4f-bc57-487d-b15e-57714ee0c0fb")
+		)
+		(pin "2"
+			(uuid "d9286294-9041-4f28-9c98-61cdf4ab8e92")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/441f4cb6-fbcc-4f11-b3b3-1ad3951f46a3"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.01 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ab3dd55-f588-4f2d-a125-ec61184f754a")
+		(property "Reference" "R6"
+			(at 82.55 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 82.55 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.232 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.01 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "911fa2e2-c122-42a5-ac83-8aad5e71d308")
+		)
+		(pin "2"
+			(uuid "c08f15f3-42bb-4c3f-b670-77ece592328a")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/441f4cb6-fbcc-4f11-b3b3-1ad3951f46a3"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x12_Odd_Even")
+		(at 115.57 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "688bc53c-8ce6-4379-9a8a-d9ce9c571216")
+		(property "Reference" "J2"
+			(at 116.84 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x12_Odd_Even"
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical"
+			(at 115.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +4283,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 96.52 101.6 0)
+			(at 115.57 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,6 +4367,82 @@
 			(project "DVDLaserScanner"
 				(path "/052f44d0-356a-4774-847b-27558aa4429e/441f4cb6-fbcc-4f11-b3b3-1ad3951f46a3"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 86.36 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba7411ad-8463-4506-851e-585b3ed9f1dd")
+		(property "Reference" "Q3"
+			(at 92.71 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 92.71 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 91.44 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 91.44 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 86.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8aa56448-4f05-4eac-a85a-80b78e3dbdd0")
+		)
+		(pin "3"
+			(uuid "173c2935-45e1-4405-b29f-63f3bd7d5274")
+		)
+		(pin "2"
+			(uuid "b3a93e01-5b8b-4bba-8186-5f2792dbeccd")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/441f4cb6-fbcc-4f11-b3b3-1ad3951f46a3"
+					(reference "Q3")
 					(unit 1)
 				)
 			)

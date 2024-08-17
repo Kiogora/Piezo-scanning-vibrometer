@@ -5,6 +5,195 @@
 	(uuid "08aab101-a436-43e1-9a34-537a11f3f9f2")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Analog_DAC:MCP4725xxx-xCH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP4725xxx-xCH"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dac twi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP4725xxx-xCH_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP4725xxx-xCH_1_1"
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "DVDLaserScanner-rescue:R"
 			(pin_numbers hide)
 			(pin_names
@@ -393,26 +582,66 @@
 		)
 	)
 	(junction
-		(at 147.32 95.25)
+		(at 191.77 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "468f92b9-1a00-44a5-a299-7f086f5d3e6e")
+	)
+	(junction
+		(at 170.18 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5212c89e-011d-4d0a-821a-14e698ffb83c")
+	)
+	(junction
+		(at 170.18 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ac27324-68cf-4aa0-87fb-d005cb5ef07d")
 	)
 	(junction
-		(at 168.91 99.06)
+		(at 143.51 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ca5152b-f145-4ca1-9010-97467328f365")
+	)
+	(junction
+		(at 191.77 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "857826e5-5395-42a7-82e8-1919d056df8a")
 	)
 	(junction
-		(at 149.86 100.33)
+		(at 172.72 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92e1ea6e-6cb9-4f00-9598-8703b2a7951a")
+	)
+	(junction
+		(at 130.81 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab09b439-43cb-401d-b4af-d3bf5f627069")
+	)
+	(junction
+		(at 172.72 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec44bfea-863a-4ef9-a52f-dd45f17895bd")
 	)
 	(wire
 		(pts
-			(xy 156.21 83.82) (xy 156.21 85.09)
+			(xy 143.51 95.25) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009fb580-93e7-4211-9a8d-ea563c9db281")
+	)
+	(wire
+		(pts
+			(xy 179.07 73.66) (xy 179.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -422,7 +651,27 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 100.33) (xy 149.86 100.33)
+			(xy 130.81 87.63) (xy 133.35 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0621e4b7-038f-4540-980d-d2ad9ef66d40")
+	)
+	(wire
+		(pts
+			(xy 130.81 95.25) (xy 125.73 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116f02b6-90bb-4f46-94a5-c1f22b8b90f4")
+	)
+	(wire
+		(pts
+			(xy 166.37 90.17) (xy 172.72 90.17)
 		)
 		(stroke
 			(width 0)
@@ -432,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 95.25) (xy 151.13 95.25)
+			(xy 170.18 85.09) (xy 173.99 85.09)
 		)
 		(stroke
 			(width 0)
@@ -442,7 +691,47 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 95.25) (xy 147.32 95.25)
+			(xy 172.72 107.95) (xy 173.99 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26046772-f16f-4664-8290-112d7aeeb2ea")
+	)
+	(wire
+		(pts
+			(xy 102.87 106.68) (xy 102.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287f68c6-f223-4828-bb8d-c93b7472d5a5")
+	)
+	(wire
+		(pts
+			(xy 142.24 102.87) (xy 143.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37bf0fe5-0643-4ed5-9fdf-8fbde8f3b499")
+	)
+	(wire
+		(pts
+			(xy 172.72 118.11) (xy 179.07 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c668dfc-e008-4a2b-a154-c243613fce41")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 170.18 85.09)
 		)
 		(stroke
 			(width 0)
@@ -452,7 +741,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 90.17) (xy 151.13 90.17)
+			(xy 172.72 80.01) (xy 173.99 80.01)
 		)
 		(stroke
 			(width 0)
@@ -462,7 +751,27 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 92.71) (xy 168.91 99.06)
+			(xy 191.77 116.84) (xy 191.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497eee84-1229-42cf-9a75-003d6135e5a7")
+	)
+	(wire
+		(pts
+			(xy 170.18 123.19) (xy 176.53 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5099e4eb-2c92-45be-946d-9fe7b5122c40")
+	)
+	(wire
+		(pts
+			(xy 191.77 82.55) (xy 191.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -472,7 +781,37 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 100.33) (xy 156.21 100.33)
+			(xy 125.73 123.19) (xy 143.51 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551ca641-554a-4d6b-9299-3251f44cd0b9")
+	)
+	(wire
+		(pts
+			(xy 153.67 113.03) (xy 157.48 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6cf50c-e524-4df9-8781-f6664557233d")
+	)
+	(wire
+		(pts
+			(xy 179.07 101.6) (xy 179.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61305f4a-1fdf-4f48-a735-f65f912babc1")
+	)
+	(wire
+		(pts
+			(xy 172.72 90.17) (xy 179.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -482,17 +821,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 95.25) (xy 135.89 95.25)
+			(xy 189.23 110.49) (xy 191.77 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71ec6429-9857-42e1-baae-f7c1177b3f81")
+		(uuid "76be6c55-d175-4c2f-8da1-8d32dde4ecf6")
 	)
 	(wire
 		(pts
-			(xy 166.37 92.71) (xy 168.91 92.71)
+			(xy 189.23 82.55) (xy 191.77 82.55)
 		)
 		(stroke
 			(width 0)
@@ -502,7 +841,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 90.17) (xy 149.86 100.33)
+			(xy 172.72 80.01) (xy 172.72 90.17)
 		)
 		(stroke
 			(width 0)
@@ -512,7 +851,37 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 95.25) (xy 147.32 105.41)
+			(xy 102.87 104.14) (xy 143.51 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c1b9ab4-04a6-4884-a2f0-0310938604d4")
+	)
+	(wire
+		(pts
+			(xy 102.87 115.57) (xy 133.35 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff5888b-9ff1-423c-a264-b9ff13596460")
+	)
+	(wire
+		(pts
+			(xy 143.51 95.25) (xy 143.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920e5b66-873e-44dc-b55d-c4f33fe71112")
+	)
+	(wire
+		(pts
+			(xy 170.18 85.09) (xy 170.18 95.25)
 		)
 		(stroke
 			(width 0)
@@ -522,7 +891,67 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 99.06) (xy 168.91 105.41)
+			(xy 143.51 123.19) (xy 143.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2111d3f-034c-4f2c-90f0-9508dd56406c")
+	)
+	(wire
+		(pts
+			(xy 142.24 74.93) (xy 143.51 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dd9075-b4b5-4bec-9dac-0fbc22d22668")
+	)
+	(wire
+		(pts
+			(xy 191.77 123.19) (xy 184.15 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5655eb1-204a-4635-b8be-1c5a67009576")
+	)
+	(wire
+		(pts
+			(xy 170.18 113.03) (xy 170.18 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b011eee1-dcd5-4e9a-8579-4cbf6cc7ef02")
+	)
+	(wire
+		(pts
+			(xy 102.87 115.57) (xy 102.87 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1fe38cb-718e-4d44-8638-7b1c3a5eccc7")
+	)
+	(wire
+		(pts
+			(xy 128.27 85.09) (xy 133.35 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc537884-b9fd-4a42-afce-7b102a6f5f82")
+	)
+	(wire
+		(pts
+			(xy 191.77 88.9) (xy 191.77 95.25)
 		)
 		(stroke
 			(width 0)
@@ -532,7 +961,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 99.06) (xy 168.91 99.06)
+			(xy 128.27 113.03) (xy 133.35 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c140fd97-9b2a-4d9b-8ef4-cf847cd492cb")
+	)
+	(wire
+		(pts
+			(xy 200.66 88.9) (xy 191.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -542,7 +981,87 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 105.41) (xy 161.29 105.41)
+			(xy 170.18 113.03) (xy 173.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64132fd-1d25-48ce-ad7e-cbbb50f9daee")
+	)
+	(wire
+		(pts
+			(xy 166.37 118.11) (xy 172.72 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95ba9b7-e626-4f09-823f-0f12f2ebeda5")
+	)
+	(wire
+		(pts
+			(xy 143.51 104.14) (xy 143.51 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f16657-0250-4a67-a072-10b15518c631")
+	)
+	(wire
+		(pts
+			(xy 143.51 74.93) (xy 143.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6aa2c4-1b83-4fc1-ac6c-d775a2603384")
+	)
+	(wire
+		(pts
+			(xy 143.51 102.87) (xy 143.51 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33eb083-da37-4357-badf-b6a897465f7b")
+	)
+	(wire
+		(pts
+			(xy 200.66 116.84) (xy 191.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62bff82-4b94-4294-bf6e-81b72708681a")
+	)
+	(wire
+		(pts
+			(xy 191.77 110.49) (xy 191.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d862ef37-1509-4f35-bb9a-7ffdcfa6c39e")
+	)
+	(wire
+		(pts
+			(xy 153.67 85.09) (xy 157.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc70998f-32e6-4bcf-99b7-39c8daa7f7a9")
+	)
+	(wire
+		(pts
+			(xy 191.77 95.25) (xy 184.15 95.25)
 		)
 		(stroke
 			(width 0)
@@ -552,7 +1071,47 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 105.41) (xy 153.67 105.41)
+			(xy 172.72 107.95) (xy 172.72 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90457b8-9bf2-4a2e-99c3-8bddc25ecd24")
+	)
+	(wire
+		(pts
+			(xy 128.27 110.49) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5f1cb4-7dc9-4b24-92d7-9790cc7527bf")
+	)
+	(wire
+		(pts
+			(xy 165.1 113.03) (xy 170.18 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b634ed-9165-4958-b923-2026f48040b4")
+	)
+	(wire
+		(pts
+			(xy 128.27 82.55) (xy 133.35 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5cf9cab-3203-4b6c-8800-aaaf246ac258")
+	)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 176.53 95.25)
 		)
 		(stroke
 			(width 0)
@@ -562,7 +1121,7 @@
 	)
 	(hierarchical_label "F+"
 		(shape input)
-		(at 177.8 99.06 0)
+		(at 200.66 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -572,9 +1131,21 @@
 		)
 		(uuid "0637e9cc-a84e-4cb4-bed4-e4e6786f6b95")
 	)
+	(hierarchical_label "TRACK_VCM_I2C_SCL"
+		(shape bidirectional)
+		(at 128.27 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "0ba0c558-4040-4e6b-be69-04c48e67dea5")
+	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 156.21 83.82 180)
+		(at 179.07 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -584,9 +1155,117 @@
 		)
 		(uuid "13b7dbdf-af86-42d5-ab20-459a3bb72b4f")
 	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 142.24 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "249b907d-bea7-42a8-8b91-ddb8fe51ce6c")
+	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 143.51 100.33 180)
+		(at 125.73 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "30ba1c51-b0b0-4619-9153-06b1d88b0ce6")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 166.37 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "330a10a3-a88b-4ec1-a55c-835b949f4e0d")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 142.24 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "622258a5-2012-4a6a-abdb-3d37bc5ee5aa")
+	)
+	(hierarchical_label "TRACK_VCM_I2C_SDA"
+		(shape bidirectional)
+		(at 128.27 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "80815cbb-64cb-41e0-9b2c-c7def93be106")
+	)
+	(hierarchical_label "FOCUS_VCM_I2C_SCL"
+		(shape bidirectional)
+		(at 128.27 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "83da5909-8247-40cc-a1cb-797494477ce6")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 179.07 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "97cfae11-0622-45ca-a7ce-e9eb7f070762")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 125.73 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "c911e364-1bf3-46f4-8e04-6380c5181cb0")
+	)
+	(hierarchical_label "T+"
+		(shape input)
+		(at 200.66 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "db10d9f1-a299-4ffe-9a74-c615bf85c4e3")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 166.37 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -596,9 +1275,9 @@
 		)
 		(uuid "f197dc6b-289f-45ea-aff2-5adb279aff2b")
 	)
-	(hierarchical_label "FOCUS_CTL"
-		(shape input)
-		(at 133.35 95.25 180)
+	(hierarchical_label "FOCUS_VCM_I2C_SDA"
+		(shape bidirectional)
+		(at 128.27 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -606,37 +1285,35 @@
 			)
 			(justify right)
 		)
-		(uuid "f978ed06-d9e9-42f4-b1ba-2b8312883ae2")
+		(uuid "f99e6382-7f2e-45e4-8e22-8abb12ccdbfb")
 	)
 	(symbol
-		(lib_id "DVDLaserScanner-rescue:TCA0372_DWG")
-		(at 158.75 92.71 0)
-		(unit 2)
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 130.81 91.44 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5116c1d0-bb4e-4153-a395-c30a41701a80")
-		(property "Reference" "U4"
-			(at 166.37 86.36 0)
+		(uuid "09a3d83e-8fb7-40c7-a82c-2b3f2084b24f")
+		(property "Reference" "R8"
+			(at 125.5522 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TCA0372_DWG"
-			(at 166.37 88.9 0)
+		(property "Value" "10K"
+			(at 127.8636 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "GaudiLabsFootPrints:SO-16-W"
-			(at 160.02 97.79 0)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 129.032 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,7 +1322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 87.63 0)
+			(at 130.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,7 +1330,365 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 92.71 0)
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2787091a-0ada-4b1d-a835-7313f0dbe34c")
+		)
+		(pin "2"
+			(uuid "a449f100-39d7-423b-9768-93a934211b39")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/e0f949d5-2ade-4b83-a169-ff0e7cb62808"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_DAC:MCP4725xxx-xCH")
+		(at 143.51 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "169ee2eb-5a3c-4d17-a220-90b9138a6806")
+		(property "Reference" "U7"
+			(at 145.796 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP4725xxx-xCH"
+			(at 151.638 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 143.51 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ed964409-af04-4f92-9b6b-3fd48756436d")
+		)
+		(pin "3"
+			(uuid "137208a3-e710-4fcb-a937-2ac808358041")
+		)
+		(pin "2"
+			(uuid "1803f48a-cd1e-4a11-b2e0-4e40e3f8cc21")
+		)
+		(pin "1"
+			(uuid "2d4a0921-3c01-4d64-8814-d5722d43ed00")
+		)
+		(pin "6"
+			(uuid "99a96545-6ea3-4631-845b-e899871bcbec")
+		)
+		(pin "4"
+			(uuid "9f68528a-d6ff-467b-9d54-d2f201c98062")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/e0f949d5-2ade-4b83-a169-ff0e7cb62808"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 161.29 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35263276-9134-4d06-ab3d-a39e59e99a24")
+		(property "Reference" "R14"
+			(at 161.29 107.7722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 161.29 110.0836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 161.29 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b847a560-0adf-4a76-8752-2d301ff0e063")
+		)
+		(pin "2"
+			(uuid "188a8f9f-9409-472a-b5fc-779a95651158")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/e0f949d5-2ade-4b83-a169-ff0e7cb62808"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_DAC:MCP4725xxx-xCH")
+		(at 143.51 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "496ff74b-0f1d-4c45-9752-8bd7acc73d51")
+		(property "Reference" "U2"
+			(at 145.796 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP4725xxx-xCH"
+			(at 151.638 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf"
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "dbe923b8-84d7-4837-9c2c-ae03f2ec1881")
+		)
+		(pin "3"
+			(uuid "9078a9e6-2653-4d2d-8cee-f21a44ecc8d9")
+		)
+		(pin "2"
+			(uuid "73932e68-64a1-4c3d-8354-b558cd2c26cb")
+		)
+		(pin "1"
+			(uuid "21ac0eb1-b75e-4e46-a7f3-e49d308dc866")
+		)
+		(pin "6"
+			(uuid "a8f97e54-4991-46dd-bcfa-6a2d312f9b7f")
+		)
+		(pin "4"
+			(uuid "1a63239f-e9f5-4b2a-9458-59f4b5936c20")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/e0f949d5-2ade-4b83-a169-ff0e7cb62808"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 180.34 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "497d0543-d443-4207-ac41-bfbf4063661b")
+		(property "Reference" "R15"
+			(at 180.34 120.904 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 180.594 125.476 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 180.34 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a5b1127-6d92-4885-baeb-23b2d992e4bb")
+		)
+		(pin "2"
+			(uuid "8e4e23de-5d4b-436d-bb18-7c89b3797115")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/e0f949d5-2ade-4b83-a169-ff0e7cb62808"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:TCA0372_DWG")
+		(at 181.61 82.55 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5116c1d0-bb4e-4153-a395-c30a41701a80")
+		(property "Reference" "U4"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCA0372_DWG"
+			(at 189.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:SO-16-W"
+			(at 182.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,23 +1740,23 @@
 	)
 	(symbol
 		(lib_id "DVDLaserScanner-rescue:R")
-		(at 157.48 105.41 270)
+		(at 102.87 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "90b9162d-8840-4e4d-8826-8e6537628693")
-		(property "Reference" "R5"
-			(at 157.48 103.124 90)
+		(uuid "70747274-d135-4f26-b3b9-db6e310701a2")
+		(property "Reference" "R13"
+			(at 97.6122 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 157.734 107.696 90)
+		(property "Value" "10K"
+			(at 99.9236 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -729,7 +1764,7 @@
 			)
 		)
 		(property "Footprint" "GaudiLabsFootPrints:0805G"
-			(at 157.48 103.632 90)
+			(at 101.092 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,7 +1773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 105.41 0)
+			(at 102.87 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -746,7 +1781,168 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 105.41 0)
+			(at 102.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffeedc76-9f77-4f25-b29e-501db22c4e63")
+		)
+		(pin "2"
+			(uuid "b14a1ac0-a6af-468c-8366-e045d3956f0d")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/e0f949d5-2ade-4b83-a169-ff0e7cb62808"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:TCA0372_DWG")
+		(at 181.61 110.49 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e8111b5-83cd-48d8-adb2-2139c7b159a5")
+		(property "Reference" "U8"
+			(at 189.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCA0372_DWG"
+			(at 189.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:SO-16-W"
+			(at 182.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb800c6d-839a-4559-8dd1-1d5367bfbf73")
+		)
+		(pin "12"
+			(uuid "2280b513-4626-46a2-b09d-e79aa45c0f3e")
+		)
+		(pin "13"
+			(uuid "57990eba-4f4b-4a44-885f-5b5e16d6d846")
+		)
+		(pin "4"
+			(uuid "f95b71cf-1a4d-42b0-a150-45e4520693f9")
+		)
+		(pin "5"
+			(uuid "c7911b5e-66ea-4e44-b5b4-e333587e7608")
+		)
+		(pin "10"
+			(uuid "fb10abfe-42ea-4330-a0c7-3af2881f62ae")
+		)
+		(pin "16"
+			(uuid "1597c9b4-fd68-49e4-8f04-a6060b28f403")
+		)
+		(pin "9"
+			(uuid "a5269ff2-c4cf-4039-8ab1-70ed2df76a8a")
+		)
+		(pin "2"
+			(uuid "57dcad64-5f32-48c5-b72d-e2f97840586c")
+		)
+		(pin "7"
+			(uuid "926fa248-af2f-483b-9e1c-f38f28fbc130")
+		)
+		(pin "8"
+			(uuid "296be174-9b4b-4a75-9905-c0024e808838")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/e0f949d5-2ade-4b83-a169-ff0e7cb62808"
+					(reference "U8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 180.34 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90b9162d-8840-4e4d-8826-8e6537628693")
+		(property "Reference" "R5"
+			(at 180.34 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 180.594 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 180.34 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -771,7 +1967,7 @@
 	)
 	(symbol
 		(lib_id "DVDLaserScanner-rescue:R")
-		(at 139.7 95.25 270)
+		(at 161.29 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -779,7 +1975,7 @@
 		(dnp no)
 		(uuid "97568973-4948-4973-95ae-b9b6af5c929b")
 		(property "Reference" "R3"
-			(at 139.7 89.9922 90)
+			(at 161.29 79.8322 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,7 +1983,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 139.7 92.3036 90)
+			(at 161.29 82.1436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -795,7 +1991,7 @@
 			)
 		)
 		(property "Footprint" "GaudiLabsFootPrints:0805G"
-			(at 139.7 93.472 90)
+			(at 161.29 83.312 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -804,7 +2000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 95.25 0)
+			(at 161.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,7 +2008,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 95.25 0)
+			(at 161.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

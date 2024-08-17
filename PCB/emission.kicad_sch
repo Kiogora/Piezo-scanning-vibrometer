@@ -5,6 +5,259 @@
 	(uuid "a9ba9015-cdb0-4233-b141-60ddbe655549")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Amplifier_Operational:MCP6022"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MCP6022"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp rail-to-rail"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP6022_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6022_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6022_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "DVDLaserScanner-rescue:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -131,329 +384,6 @@
 				)
 			)
 		)
-		(symbol "DVDLaserScanner-rescue:Q_NMOS_GDS"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_GDS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NMOS_GDS_0_1"
-				(polyline
-					(pts
-						(xy 0.0508 0) (xy 0.254 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 2.54 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.778) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.778) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NMOS_GDS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "DVDLaserScanner-rescue:R"
 			(pin_numbers hide)
 			(pin_names
@@ -566,48 +496,51 @@
 				)
 			)
 		)
-		(symbol "DVDLaserScanner-rescue:TLC2274"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "Transistor_FET:BSS138"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 5.715 3.81 0)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "TLC2274"
-				(at 6.985 -3.81 0)
+			(property "Value" "BSS138"
+				(at 5.08 0 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
+						(italic yes)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -616,28 +549,199 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLC2274_0_1"
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSS138_0_1"
 				(polyline
 					(pts
-						(xy -2.54 5.08) (xy 7.62 0) (xy -2.54 -5.08) (xy -2.54 5.08)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
-			(symbol "TLC2274_1_1"
+			(symbol "BSS138_1_1"
 				(pin input line
-					(at 10.16 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "OUT"
+					(name "G"
 						(effects
 							(font
-								(size 0.762 0.762)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -649,28 +753,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -6.35 90)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "VDD-"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "-"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -685,10 +771,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 2.54 0)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "+"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -696,192 +782,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 6.35 270)
-					(length 2.54)
-					(name "VDD+"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TLC2274_2_1"
-				(pin input line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TLC2274_3_1"
-				(pin input line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TLC2274_4_1"
-				(pin input line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -905,16 +805,16 @@
 		(uuid "414b4d2c-161c-4173-8aec-fab4358d3f5a")
 	)
 	(junction
-		(at 140.97 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57ce6cdd-7eda-4a39-87cc-6fb4f85b17a5")
-	)
-	(junction
 		(at 153.67 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a22675f3-77bc-4243-a4ce-330f61efa19b")
+	)
+	(junction
+		(at 140.97 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b04d50c3-6135-4dda-86e3-640239af6b1e")
 	)
 	(wire
 		(pts
@@ -978,7 +878,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 92.71) (xy 135.89 92.71)
+			(xy 133.35 92.71) (xy 135.89 92.71)
 		)
 		(stroke
 			(width 0)
@@ -998,23 +898,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 115.57) (xy 140.97 115.57)
+			(xy 140.97 115.57) (xy 171.45 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f33af9d-b6b1-4673-9b0b-f05b5559853c")
+		(uuid "8e500b25-d36b-493b-a5c3-dbeb43bb2d00")
 	)
 	(wire
 		(pts
-			(xy 140.97 85.09) (xy 140.97 88.9)
+			(xy 140.97 86.36) (xy 140.97 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9685f0df-5cf9-450d-b1f6-c18259af3cc2")
+		(uuid "9702ab3a-530e-4073-931a-8237d65080ba")
 	)
 	(wire
 		(pts
@@ -1038,13 +938,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 115.57) (xy 171.45 115.57)
+			(xy 133.35 115.57) (xy 140.97 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b0f270db-4df5-475d-8689-eeec35e6ba18")
+	)
+	(wire
+		(pts
+			(xy 135.89 104.14) (xy 153.67 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e52c63-7221-44a9-9c29-81220f396c43")
 	)
 	(wire
 		(pts
@@ -1055,26 +965,6 @@
 			(type default)
 		)
 		(uuid "ddd59cbe-67f2-4d78-be20-671161c8d0a1")
-	)
-	(wire
-		(pts
-			(xy 140.97 101.6) (xy 140.97 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e08414c6-529c-4aa2-8848-9514ecf7ddc8")
-	)
-	(wire
-		(pts
-			(xy 135.89 104.14) (xy 153.67 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e61075bd-bde6-48aa-85af-4b81b0185fb4")
 	)
 	(wire
 		(pts
@@ -1096,9 +986,19 @@
 		)
 		(uuid "ea232f7f-5edf-4eed-b206-b8867de87af1")
 	)
+	(wire
+		(pts
+			(xy 140.97 102.87) (xy 140.97 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82820b4-0386-42ef-87d7-30f118d6dc4c")
+	)
 	(hierarchical_label "INTENSITY"
 		(shape input)
-		(at 121.92 92.71 180)
+		(at 133.35 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1110,7 +1010,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 121.92 115.57 180)
+		(at 133.35 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1122,7 +1022,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 140.97 85.09 180)
+		(at 140.97 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1132,8 +1032,8 @@
 		)
 		(uuid "6455a813-e583-454f-8380-804c503a5731")
 	)
-	(hierarchical_label "LD_DVD"
-		(shape input)
+	(hierarchical_label "LD_LOW_SIDE"
+		(shape output)
 		(at 171.45 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1143,6 +1043,92 @@
 			(justify left)
 		)
 		(uuid "b1db4c93-4afd-433b-94f9-aec00938fd24")
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6022")
+		(at 106.68 69.85 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c83ec90-8c46-49fc-a289-e2c1ebab8708")
+		(property "Reference" "U5"
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6022"
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "bb8b3cc9-f207-45b9-9fa3-194070aa83bb")
+		)
+		(pin "3"
+			(uuid "9ccca887-bd99-492b-bce0-252d75b54005")
+		)
+		(pin "2"
+			(uuid "a09e2a5d-fb4f-4a27-b288-3981eef03397")
+		)
+		(pin "1"
+			(uuid "b217f9b9-33ce-4e1c-b03f-2c15559632af")
+		)
+		(pin "4"
+			(uuid "854d07c8-47e3-4595-9897-e2702502b472")
+		)
+		(pin "6"
+			(uuid "0cc7f362-b185-47fc-a3c3-0c01129bcbba")
+		)
+		(pin "5"
+			(uuid "766e6037-c6e5-4707-b40e-9cb9ff84a6eb")
+		)
+		(pin "7"
+			(uuid "1a693e66-5894-403d-a735-af7a6d6dcfd3")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "DVDLaserScanner-rescue:R")
@@ -1211,51 +1197,56 @@
 		)
 	)
 	(symbol
-		(lib_id "DVDLaserScanner-rescue:TLC2274")
-		(at 151.13 64.77 0)
-		(unit 2)
+		(lib_id "Transistor_FET:BSS138")
+		(at 168.91 95.25 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6eab0b8d-9e28-4ae5-a0a1-df00ab87fb22")
-		(property "Reference" "U1"
-			(at 153.67 54.61 0)
+		(uuid "7796a585-cca5-41aa-b9a8-c865f8b07220")
+		(property "Reference" "Q1"
+			(at 175.26 93.9799 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TLC2274"
-			(at 153.67 57.15 0)
+		(property "Value" "BSS138"
+			(at 175.26 96.5199 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 151.13 64.77 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 173.99 97.155 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
+					(italic yes)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 151.13 64.77 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 173.99 99.06 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 151.13 64.77 0)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 168.91 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,53 +1254,20 @@
 				(hide yes)
 			)
 		)
-		(pin "9"
-			(uuid "69d38f4e-a91d-405d-836f-91c5397e27cc")
-		)
-		(pin "11"
-			(uuid "e8f099b1-6cdc-46e8-bc0c-a87e21db6e53")
-		)
-		(pin "12"
-			(uuid "56ab2f51-76ac-4c27-93b0-648fb8ddcfc5")
-		)
-		(pin "6"
-			(uuid "8571cfbf-038f-47ee-bc0d-aa2bdb94284f")
-		)
-		(pin "10"
-			(uuid "c2e1a172-efe7-4d76-adb4-accdce1b4591")
-		)
 		(pin "1"
-			(uuid "2a3b0512-904a-4bce-8df8-4ed17be74c3b")
-		)
-		(pin "13"
-			(uuid "17876c63-3eaa-4ebd-b151-ef0bd9d59c97")
-		)
-		(pin "8"
-			(uuid "fcc6b275-2dfa-44a3-86f5-a36123107608")
-		)
-		(pin "14"
-			(uuid "61940009-9fa9-408f-b80e-c766732e5ad0")
-		)
-		(pin "7"
-			(uuid "65ca805f-58e6-468c-b14c-aaf31cf709f4")
-		)
-		(pin "3"
-			(uuid "6c9abbfe-aaa6-44fe-9955-d265776c02d8")
-		)
-		(pin "5"
-			(uuid "0b8a904c-f672-4ffa-8412-3b4cd54d7773")
+			(uuid "a966ddac-ae70-45d2-9dae-fe1bb7a85838")
 		)
 		(pin "2"
-			(uuid "e1e7ef80-fbbe-4d76-9443-a745f04ca0d5")
+			(uuid "d2a2edfb-ba10-4839-84d7-1dd51aed8221")
 		)
-		(pin "4"
-			(uuid "81136793-ed80-4c6d-aef8-4360b3e5c840")
+		(pin "3"
+			(uuid "a9942ec8-52b1-4df5-a875-739eff15f28c")
 		)
 		(instances
 			(project "DVDLaserScanner"
 				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
-					(reference "U1")
-					(unit 2)
+					(reference "Q1")
+					(unit 1)
 				)
 			)
 		)
@@ -1324,7 +1282,7 @@
 		(dnp no)
 		(uuid "92d027a4-2193-45f7-b0e2-b74387d4375f")
 		(property "Reference" "C4"
-			(at 148.59 99.06 0)
+			(at 149.606 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1377,109 +1335,6 @@
 			(project "DVDLaserScanner"
 				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DVDLaserScanner-rescue:TLC2274")
-		(at 140.97 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6d6db67-2607-41b2-8b32-0f58698179ce")
-		(property "Reference" "U1"
-			(at 147.828 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLC2274"
-			(at 147.828 90.424 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "69d38f4e-a91d-405d-836f-91c5397e27cc")
-		)
-		(pin "11"
-			(uuid "e8f099b1-6cdc-46e8-bc0c-a87e21db6e53")
-		)
-		(pin "12"
-			(uuid "56ab2f51-76ac-4c27-93b0-648fb8ddcfc5")
-		)
-		(pin "6"
-			(uuid "8571cfbf-038f-47ee-bc0d-aa2bdb94284f")
-		)
-		(pin "10"
-			(uuid "c2e1a172-efe7-4d76-adb4-accdce1b4591")
-		)
-		(pin "1"
-			(uuid "2a3b0512-904a-4bce-8df8-4ed17be74c3b")
-		)
-		(pin "13"
-			(uuid "17876c63-3eaa-4ebd-b151-ef0bd9d59c97")
-		)
-		(pin "8"
-			(uuid "fcc6b275-2dfa-44a3-86f5-a36123107608")
-		)
-		(pin "14"
-			(uuid "61940009-9fa9-408f-b80e-c766732e5ad0")
-		)
-		(pin "7"
-			(uuid "65ca805f-58e6-468c-b14c-aaf31cf709f4")
-		)
-		(pin "3"
-			(uuid "6c9abbfe-aaa6-44fe-9955-d265776c02d8")
-		)
-		(pin "5"
-			(uuid "0b8a904c-f672-4ffa-8412-3b4cd54d7773")
-		)
-		(pin "2"
-			(uuid "e1e7ef80-fbbe-4d76-9443-a745f04ca0d5")
-		)
-		(pin "4"
-			(uuid "81136793-ed80-4c6d-aef8-4360b3e5c840")
-		)
-		(instances
-			(project "DVDLaserScanner"
-				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1552,51 +1407,119 @@
 		)
 	)
 	(symbol
-		(lib_id "DVDLaserScanner-rescue:Q_NMOS_GDS")
-		(at 168.91 95.25 0)
+		(lib_id "Amplifier_Operational:MCP6022")
+		(at 143.51 95.25 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef95a672-a118-49df-b470-8444a875d7c0")
+		(property "Reference" "U5"
+			(at 142.494 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6022"
+			(at 142.494 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "bb8b3cc9-f207-45b9-9fa3-194070aa83bb")
+		)
+		(pin "3"
+			(uuid "9ccca887-bd99-492b-bce0-252d75b54005")
+		)
+		(pin "2"
+			(uuid "a09e2a5d-fb4f-4a27-b288-3981eef03397")
+		)
+		(pin "1"
+			(uuid "b217f9b9-33ce-4e1c-b03f-2c15559632af")
+		)
+		(pin "4"
+			(uuid "854d07c8-47e3-4595-9897-e2702502b472")
+		)
+		(pin "6"
+			(uuid "0cc7f362-b185-47fc-a3c3-0c01129bcbba")
+		)
+		(pin "5"
+			(uuid "766e6037-c6e5-4707-b40e-9cb9ff84a6eb")
+		)
+		(pin "7"
+			(uuid "1a693e66-5894-403d-a735-af7a6d6dcfd3")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6022")
+		(at 143.51 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f462ec31-372c-4883-a30a-b9fddf79b5e7")
-		(property "Reference" "Q1"
-			(at 174.117 94.0816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 174.117 96.393 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TO_SOT_Packages_SMD:TO-252-2Lead"
-			(at 173.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 95.25 0)
+		(uuid "f99b0017-4f3d-4951-9f23-483e21a4fd46")
+		(property "Reference" "U5"
+			(at 144.78 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 168.91 95.25 0)
+		(property "Value" "MCP6022"
+			(at 146.558 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,19 +1527,52 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "2ffd07ee-e4b9-4c69-a902-09896972f07b")
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "569b2f9b-de5e-405d-b7e2-281550e84d4c")
+		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "bb8b3cc9-f207-45b9-9fa3-194070aa83bb")
 		)
 		(pin "3"
-			(uuid "d869560c-41cc-43d1-bb2d-4e608a605e2d")
+			(uuid "9ccca887-bd99-492b-bce0-252d75b54005")
+		)
+		(pin "2"
+			(uuid "a09e2a5d-fb4f-4a27-b288-3981eef03397")
+		)
+		(pin "1"
+			(uuid "b217f9b9-33ce-4e1c-b03f-2c15559632af")
+		)
+		(pin "4"
+			(uuid "854d07c8-47e3-4595-9897-e2702502b472")
+		)
+		(pin "6"
+			(uuid "0cc7f362-b185-47fc-a3c3-0c01129bcbba")
+		)
+		(pin "5"
+			(uuid "766e6037-c6e5-4707-b40e-9cb9ff84a6eb")
+		)
+		(pin "7"
+			(uuid "1a693e66-5894-403d-a735-af7a6d6dcfd3")
 		)
 		(instances
 			(project "DVDLaserScanner"
 				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
-					(reference "Q1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
