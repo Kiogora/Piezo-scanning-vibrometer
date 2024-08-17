@@ -1461,28 +1461,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "bb8b3cc9-f207-45b9-9fa3-194070aa83bb")
+			(uuid "bb8b3cc9-f207-45b9-9fa3-194070aa83bc")
 		)
 		(pin "3"
-			(uuid "9ccca887-bd99-492b-bce0-252d75b54005")
+			(uuid "9ccca887-bd99-492b-bce0-252d75b54006")
 		)
 		(pin "2"
-			(uuid "a09e2a5d-fb4f-4a27-b288-3981eef03397")
+			(uuid "a09e2a5d-fb4f-4a27-b288-3981eef03398")
 		)
 		(pin "1"
-			(uuid "b217f9b9-33ce-4e1c-b03f-2c15559632af")
+			(uuid "b217f9b9-33ce-4e1c-b03f-2c15559632b0")
 		)
 		(pin "4"
-			(uuid "854d07c8-47e3-4595-9897-e2702502b472")
+			(uuid "854d07c8-47e3-4595-9897-e2702502b473")
 		)
 		(pin "6"
-			(uuid "0cc7f362-b185-47fc-a3c3-0c01129bcbba")
+			(uuid "0cc7f362-b185-47fc-a3c3-0c01129bcbbb")
 		)
 		(pin "5"
-			(uuid "766e6037-c6e5-4707-b40e-9cb9ff84a6eb")
+			(uuid "766e6037-c6e5-4707-b40e-9cb9ff84a6ec")
 		)
 		(pin "7"
-			(uuid "1a693e66-5894-403d-a735-af7a6d6dcfd3")
+			(uuid "1a693e66-5894-403d-a735-af7a6d6dcfd4")
 		)
 		(instances
 			(project "DVDLaserScanner"
@@ -1546,28 +1546,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "bb8b3cc9-f207-45b9-9fa3-194070aa83bb")
+			(uuid "bb8b3cc9-f207-45b9-9fa3-194070aa83bd")
 		)
 		(pin "3"
-			(uuid "9ccca887-bd99-492b-bce0-252d75b54005")
+			(uuid "9ccca887-bd99-492b-bce0-252d75b54007")
 		)
 		(pin "2"
-			(uuid "a09e2a5d-fb4f-4a27-b288-3981eef03397")
+			(uuid "a09e2a5d-fb4f-4a27-b288-3981eef03399")
 		)
 		(pin "1"
-			(uuid "b217f9b9-33ce-4e1c-b03f-2c15559632af")
+			(uuid "b217f9b9-33ce-4e1c-b03f-2c15559632b1")
 		)
 		(pin "4"
-			(uuid "854d07c8-47e3-4595-9897-e2702502b472")
+			(uuid "854d07c8-47e3-4595-9897-e2702502b474")
 		)
 		(pin "6"
-			(uuid "0cc7f362-b185-47fc-a3c3-0c01129bcbba")
+			(uuid "0cc7f362-b185-47fc-a3c3-0c01129bcbbc")
 		)
 		(pin "5"
-			(uuid "766e6037-c6e5-4707-b40e-9cb9ff84a6eb")
+			(uuid "766e6037-c6e5-4707-b40e-9cb9ff84a6ed")
 		)
 		(pin "7"
-			(uuid "1a693e66-5894-403d-a735-af7a6d6dcfd3")
+			(uuid "1a693e66-5894-403d-a735-af7a6d6dcfd5")
 		)
 		(instances
 			(project "DVDLaserScanner"

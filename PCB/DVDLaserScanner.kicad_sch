@@ -1737,7 +1737,7 @@
 	)
 	(rectangle
 		(start 77.47 125.73)
-		(end 104.902 167.132)
+		(end 102.362 163.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -1805,7 +1805,7 @@
 	)
 	(text "Unused controller I/O"
 		(exclude_from_sim no)
-		(at 89.916 168.656 0)
+		(at 90.424 165.862 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2301,7 +2301,7 @@
 			(uuid "b2ad8852-94ed-4d22-b1ec-496ed88e94fe")
 		)
 		(pin "TRIG2" input
-			(at 77.47 165.1 180)
+			(at 77.47 162.56 180)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2341,7 +2341,7 @@
 			(uuid "a7e62ece-abdd-4634-b510-c385ce2b0f3b")
 		)
 		(pin "TRIG1" input
-			(at 77.47 162.56 180)
+			(at 77.47 160.02 180)
 			(effects
 				(font
 					(size 1.524 1.524)

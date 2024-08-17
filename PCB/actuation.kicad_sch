@@ -1873,13 +1873,13 @@
 			(uuid "c7911b5e-66ea-4e44-b5b4-e333587e7608")
 		)
 		(pin "10"
-			(uuid "fb10abfe-42ea-4330-a0c7-3af2881f62ae")
+			(uuid "fb10abfe-42ea-4330-a0c7-3af2881f62af")
 		)
 		(pin "16"
-			(uuid "1597c9b4-fd68-49e4-8f04-a6060b28f403")
+			(uuid "1597c9b4-fd68-49e4-8f04-a6060b28f404")
 		)
 		(pin "9"
-			(uuid "a5269ff2-c4cf-4039-8ab1-70ed2df76a8a")
+			(uuid "a5269ff2-c4cf-4039-8ab1-70ed2df76a8b")
 		)
 		(pin "2"
 			(uuid "57dcad64-5f32-48c5-b72d-e2f97840586c")
