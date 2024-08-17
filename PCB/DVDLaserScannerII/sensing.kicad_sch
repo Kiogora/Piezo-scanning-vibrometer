@@ -1,0 +1,6393 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3c8eee0c-b7de-4cdc-95cc-34ff65abbb38")
+	(paper "A4")
+	(lib_symbols
+		(symbol "DVDLaserScanner-rescue:CP_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP_Small_0_1"
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DVDLaserScanner-rescue:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DVDLaserScanner-rescue:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_* R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DVDLaserScanner-rescue:TLC2274"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.715 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TLC2274"
+				(at 6.985 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLC2274_0_1"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 7.62 0) (xy -2.54 -5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLC2274_1_1"
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "VDD-"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "VDD+"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLC2274_2_1"
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLC2274_3_1"
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLC2274_4_1"
+				(pin input line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:Jumper_3_Open"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, both open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Open_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.651 1.4992)
+					(end -3.048 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.048 1.016)
+					(mid 1.651 1.4992)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 238.76 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0446f192-7b82-4e6e-8885-457cb3057218")
+	)
+	(junction
+		(at 195.58 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07b064ed-8fce-4c83-b7da-ca370f70a59c")
+	)
+	(junction
+		(at 231.14 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0903f353-c1a7-45ca-afb8-4b1d84bcb90d")
+	)
+	(junction
+		(at 73.66 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1709d052-00e7-4d97-a358-fa833eb2d2d9")
+	)
+	(junction
+		(at 52.07 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a93391a-4bc0-4a90-8c59-7ff59feb4de0")
+	)
+	(junction
+		(at 238.76 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "314065f9-841d-4c9f-aa60-a084d21994a5")
+	)
+	(junction
+		(at 152.4 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "362b94bc-3577-419e-aa0b-b27d2c07fbbd")
+	)
+	(junction
+		(at 157.48 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "392e1896-f414-42c9-9a7b-1646eed658b0")
+	)
+	(junction
+		(at 69.85 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47c3e046-0751-47ac-8100-8ec3f17013db")
+	)
+	(junction
+		(at 182.88 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b2a077b-c448-4fca-9382-8a0e1c2fe497")
+	)
+	(junction
+		(at 252.73 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52307eed-5013-448d-ba95-7d4f89d2a922")
+	)
+	(junction
+		(at 252.73 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56481c95-eb37-40a7-a2fd-e7c0963d46d8")
+	)
+	(junction
+		(at 195.58 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "572a7925-24c1-4fab-b636-4162b13504f0")
+	)
+	(junction
+		(at 71.12 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c6727ff-1631-4329-9eed-e153eb846a12")
+	)
+	(junction
+		(at 231.14 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60c4a384-6615-4d99-aa81-7871af17c2ba")
+	)
+	(junction
+		(at 195.58 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66161c3e-5486-43b4-a9c1-5a2176b115f1")
+	)
+	(junction
+		(at 231.14 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a184623-7f5a-4500-b809-7ac6005384a7")
+	)
+	(junction
+		(at 133.35 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "778fad83-fe0d-482d-a53a-a360cf3ea433")
+	)
+	(junction
+		(at 238.76 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7964aa2e-895f-452d-950a-58319f993820")
+	)
+	(junction
+		(at 52.07 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85686528-8573-4249-a040-eb63a9de138b")
+	)
+	(junction
+		(at 133.35 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95e06b15-42a3-4283-a1d7-deea42216efc")
+	)
+	(junction
+		(at 182.88 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d41647c-961f-4de7-8d74-c062e683dcc5")
+	)
+	(junction
+		(at 212.09 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b272196c-151e-495f-8a08-449d16da6207")
+	)
+	(junction
+		(at 176.53 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6d8052b-5a51-44ab-96dd-c3ea903c6586")
+	)
+	(junction
+		(at 157.48 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c84e3571-f4eb-4a92-9a5e-ee06f84adb58")
+	)
+	(junction
+		(at 238.76 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d79453dc-d3a5-46c9-8fa3-9e8a87268123")
+	)
+	(junction
+		(at 49.53 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbb67c34-2a36-469b-9078-a14be2f3ee29")
+	)
+	(junction
+		(at 152.4 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebdc9fb8-a004-43fd-bdcf-bfd8cf4aef37")
+	)
+	(junction
+		(at 176.53 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec458bfe-3d7d-4112-aaea-b232a9018549")
+	)
+	(junction
+		(at 152.4 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f11f7455-8006-435f-8724-b129182b91cb")
+	)
+	(junction
+		(at 231.14 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f53cf39f-de78-4bbd-b3a3-b86f28750e06")
+	)
+	(junction
+		(at 212.09 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6a685ad-3b1a-4f0e-97c8-d97e0a78f627")
+	)
+	(wire
+		(pts
+			(xy 193.04 60.96) (xy 195.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005345b1-65aa-4677-97bc-41af91c6f75e")
+	)
+	(wire
+		(pts
+			(xy 52.07 119.38) (xy 52.07 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022a11c1-2410-4a8d-b7d0-d516e613d01d")
+	)
+	(wire
+		(pts
+			(xy 189.23 147.32) (xy 191.77 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f4e2ba-2d47-4a4c-9094-39442e53c4df")
+	)
+	(wire
+		(pts
+			(xy 152.4 74.93) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a45229-d486-463a-a476-8c9da23b8383")
+	)
+	(wire
+		(pts
+			(xy 157.48 69.85) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04621081-53e9-4370-af09-5497883e9bde")
+	)
+	(wire
+		(pts
+			(xy 212.09 22.86) (xy 220.98 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b25656-2255-4759-8441-f7be9e5f70bb")
+	)
+	(wire
+		(pts
+			(xy 185.42 153.67) (xy 171.45 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d4189d-e432-4486-a6b0-e95dfc8d7a23")
+	)
+	(wire
+		(pts
+			(xy 146.05 33.02) (xy 152.4 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0861f039-a4f7-4ba6-bdb6-69032b3c528b")
+	)
+	(wire
+		(pts
+			(xy 64.77 41.91) (xy 69.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08875e58-c5dc-4153-a196-79461821b3f0")
+	)
+	(wire
+		(pts
+			(xy 250.19 60.96) (xy 252.73 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0943b682-f169-40cf-8f72-c3ce5615fa21")
+	)
+	(wire
+		(pts
+			(xy 152.4 68.58) (xy 152.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2ff9b5-c4f7-46f0-9ac2-16f14bf6ec4c")
+	)
+	(wire
+		(pts
+			(xy 252.73 57.15) (xy 252.73 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b25fac-444e-41d5-9aff-e78e8d2604ab")
+	)
+	(wire
+		(pts
+			(xy 71.12 134.62) (xy 73.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1467f29c-a2af-471f-9078-e80409d2b2e5")
+	)
+	(wire
+		(pts
+			(xy 191.77 54.61) (xy 195.58 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d26c07-167c-466a-a9d6-bf6c680ae846")
+	)
+	(wire
+		(pts
+			(xy 207.01 60.96) (xy 212.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176174e6-80c2-48be-a03c-8802d2c4f66d")
+	)
+	(polyline
+		(pts
+			(xy 274.828 102.108) (xy 274.828 114.808)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc6b2af-ab4f-4a5f-b51d-6bd2ca5a35fa")
+	)
+	(wire
+		(pts
+			(xy 189.23 160.02) (xy 191.77 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e14c311-0414-42e2-b922-78ce181be9ba")
+	)
+	(wire
+		(pts
+			(xy 157.48 55.88) (xy 157.48 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e600ea7-ffb2-46a4-86f6-df1af6b691c8")
+	)
+	(wire
+		(pts
+			(xy 152.4 38.1) (xy 152.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e863445-3a89-486e-ba43-4289a0c3fca6")
+	)
+	(wire
+		(pts
+			(xy 238.76 48.26) (xy 266.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22608f39-0926-4edd-a218-00a0bff29294")
+	)
+	(wire
+		(pts
+			(xy 231.14 86.36) (xy 238.76 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fc85d7-0ec8-40db-be95-bfd1a4f0fd97")
+	)
+	(wire
+		(pts
+			(xy 171.45 135.89) (xy 171.45 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fafb80-d041-4452-a075-20d8b0a297fb")
+	)
+	(wire
+		(pts
+			(xy 212.09 36.83) (xy 215.9 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260c811e-f23d-4523-b7c8-aeb902579e2c")
+	)
+	(wire
+		(pts
+			(xy 182.88 16.51) (xy 182.88 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2770edbe-1eb6-4b1c-8fad-db588e3bfa2b")
+	)
+	(wire
+		(pts
+			(xy 214.63 113.03) (xy 201.93 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc33833-ce44-40e6-b35c-e5d65df39a9a")
+	)
+	(wire
+		(pts
+			(xy 214.63 130.81) (xy 201.93 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6f193e-1e8e-4aed-b05f-25bf9c19550a")
+	)
+	(wire
+		(pts
+			(xy 176.53 74.93) (xy 180.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf9ac2d-a754-4ff5-99c2-23dd0a1e32b7")
+	)
+	(wire
+		(pts
+			(xy 176.53 60.96) (xy 182.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30aa4d8c-caec-4876-9cfb-fe3e76f8b4f7")
+	)
+	(wire
+		(pts
+			(xy 55.88 142.24) (xy 71.12 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fdbeb6-ab10-49e0-943b-2d741f3a7fd0")
+	)
+	(wire
+		(pts
+			(xy 238.76 86.36) (xy 238.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3381fb78-6cab-48dc-87f1-8595d896b592")
+	)
+	(wire
+		(pts
+			(xy 168.91 36.83) (xy 168.91 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35242c30-3852-4f69-8158-df49560f469b")
+	)
+	(wire
+		(pts
+			(xy 252.73 26.67) (xy 254 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad24aab-2f8d-49a2-85d0-360cac95c864")
+	)
+	(wire
+		(pts
+			(xy 252.73 60.96) (xy 252.73 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfd70e1-5ecb-449b-b406-6a46f4d7204c")
+	)
+	(wire
+		(pts
+			(xy 157.48 55.88) (xy 158.75 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c975155-c4c0-4473-9464-8f8d31e79200")
+	)
+	(wire
+		(pts
+			(xy 190.5 68.58) (xy 184.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9c5ded-719d-402f-9e5b-3f4aaab0d046")
+	)
+	(wire
+		(pts
+			(xy 238.76 60.96) (xy 242.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4019fa76-cb37-4701-b21c-0f6dd8a85b63")
+	)
+	(wire
+		(pts
+			(xy 186.69 54.61) (xy 182.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a21fa4-6a29-4708-aeff-c7993c3f6d63")
+	)
+	(wire
+		(pts
+			(xy 266.7 57.15) (xy 261.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b012b3-eae2-4baf-ac31-d08ce6f80fca")
+	)
+	(wire
+		(pts
+			(xy 212.09 73.66) (xy 215.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9959e5-0837-4b17-9f2e-8bc17fedbc9a")
+	)
+	(wire
+		(pts
+			(xy 212.09 60.96) (xy 220.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e168b2-a35f-4936-8cc0-550dbcc96dd4")
+	)
+	(wire
+		(pts
+			(xy 252.73 19.05) (xy 252.73 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ed56ab-3d5b-44ff-afcb-c92a3edd5602")
+	)
+	(wire
+		(pts
+			(xy 151.13 55.88) (xy 152.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556cd2fe-106b-4db3-97bc-5b6c1042757e")
+	)
+	(wire
+		(pts
+			(xy 207.01 22.86) (xy 212.09 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5671da05-1464-46eb-a4eb-f43cb9ff7cec")
+	)
+	(wire
+		(pts
+			(xy 168.91 55.88) (xy 166.37 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5780c81a-1455-49e0-88d6-341450894a5d")
+	)
+	(wire
+		(pts
+			(xy 171.45 153.67) (xy 171.45 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58553ee9-806a-440a-a009-38b29b443bcd")
+	)
+	(wire
+		(pts
+			(xy 128.27 53.34) (xy 133.35 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a535be4-ff3b-485e-8b01-d724b65de1ac")
+	)
+	(wire
+		(pts
+			(xy 146.05 45.72) (xy 139.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa47091-8edf-4dd5-b5e3-c6d714634c3c")
+	)
+	(wire
+		(pts
+			(xy 55.88 137.16) (xy 55.88 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdb38e0-31e5-494f-ac0e-b16bb6abbd6d")
+	)
+	(wire
+		(pts
+			(xy 195.58 86.36) (xy 231.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be1cbb0-b3ea-4933-8017-65a906bcd15c")
+	)
+	(wire
+		(pts
+			(xy 182.88 54.61) (xy 182.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5deddcdc-ded7-454b-93e2-a0e925091910")
+	)
+	(wire
+		(pts
+			(xy 195.58 39.37) (xy 195.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dfba2c7-7b03-4682-bf61-a2c2c6754f72")
+	)
+	(wire
+		(pts
+			(xy 140.97 33.02) (xy 133.35 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee136f2-035e-4bfd-be31-dfd384446c76")
+	)
+	(wire
+		(pts
+			(xy 195.58 60.96) (xy 199.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602e92f4-7757-4193-8154-423450faca89")
+	)
+	(wire
+		(pts
+			(xy 201.93 149.86) (xy 204.47 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615e5a6c-7e53-44cc-9da8-596fbd8e475c")
+	)
+	(wire
+		(pts
+			(xy 238.76 22.86) (xy 242.57 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6220a9d4-65ca-4307-948f-bc9f3580358b")
+	)
+	(wire
+		(pts
+			(xy 189.23 125.73) (xy 189.23 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6339c46f-9a5b-440b-b860-04643c634d88")
+	)
+	(wire
+		(pts
+			(xy 71.12 142.24) (xy 71.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f09a7e-ef0b-4708-9815-8e3087d69628")
+	)
+	(wire
+		(pts
+			(xy 201.93 130.81) (xy 201.93 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64daf685-28f3-45c1-8a5c-43cdcc82080c")
+	)
+	(wire
+		(pts
+			(xy 52.07 129.54) (xy 52.07 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65fa1408-7cd3-4509-96af-9f0402c36291")
+	)
+	(wire
+		(pts
+			(xy 49.53 148.59) (xy 52.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a890cf0-bb45-4f64-9e42-dd89472bcd23")
+	)
+	(wire
+		(pts
+			(xy 176.53 36.83) (xy 180.34 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf058de-87a4-48d5-9fed-ff90235ea370")
+	)
+	(wire
+		(pts
+			(xy 49.53 41.91) (xy 49.53 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c04a288-f34c-4d10-8d2d-9fd874e4f163")
+	)
+	(wire
+		(pts
+			(xy 212.09 22.86) (xy 212.09 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8aa7b2-f379-4a8f-b447-e147866f965e")
+	)
+	(wire
+		(pts
+			(xy 195.58 60.96) (xy 195.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7403fe7c-d192-4127-b57a-a9aa6d0c54dc")
+	)
+	(wire
+		(pts
+			(xy 195.58 16.51) (xy 195.58 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764bbd16-11d1-446a-a961-9ce5ab44e109")
+	)
+	(wire
+		(pts
+			(xy 157.48 86.36) (xy 195.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78adcdf9-31ac-4cfd-83b5-e875086e9dc3")
+	)
+	(wire
+		(pts
+			(xy 133.35 38.1) (xy 133.35 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab20d2f-5b65-41f9-bfb8-9de5301c738c")
+	)
+	(wire
+		(pts
+			(xy 198.12 143.51) (xy 189.23 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1ca9e5-6413-44ad-9f9b-1d0364e71574")
+	)
+	(wire
+		(pts
+			(xy 201.93 137.16) (xy 204.47 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a9cc80-f6d3-46eb-a04d-c9bd6451bdec")
+	)
+	(wire
+		(pts
+			(xy 212.09 60.96) (xy 212.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8434956f-9682-442a-a357-1d93167498f3")
+	)
+	(wire
+		(pts
+			(xy 252.73 64.77) (xy 254 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8447932b-6da4-43b2-ab04-a96c66b4c436")
+	)
+	(wire
+		(pts
+			(xy 261.62 26.67) (xy 266.7 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895f358d-fdb0-427e-b914-fb9cde989c76")
+	)
+	(wire
+		(pts
+			(xy 49.53 54.61) (xy 52.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ccb719a-490b-4f6d-84fc-c2f73efc58f6")
+	)
+	(wire
+		(pts
+			(xy 73.66 140.97) (xy 73.66 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d382ced-b6a8-4668-9c91-3775a612f32a")
+	)
+	(wire
+		(pts
+			(xy 193.04 22.86) (xy 195.58 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e2a191a-6317-49ef-9ef5-7e6393918885")
+	)
+	(wire
+		(pts
+			(xy 43.18 54.61) (xy 49.53 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9064d009-9b5a-4400-b341-1273b386a0a1")
+	)
+	(wire
+		(pts
+			(xy 238.76 22.86) (xy 238.76 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92639280-bf63-43e5-9539-0a12b6325351")
+	)
+	(polyline
+		(pts
+			(xy 258.318 102.108) (xy 258.318 114.808)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ad3627-9c9b-4c4a-9631-0aef4b2da3a4")
+	)
+	(wire
+		(pts
+			(xy 73.66 134.62) (xy 77.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95846c8c-e4ca-44dc-a8ba-633366353c35")
+	)
+	(wire
+		(pts
+			(xy 168.91 74.93) (xy 168.91 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b5c88f-2e84-437d-a4db-a63728676081")
+	)
+	(wire
+		(pts
+			(xy 152.4 38.1) (xy 147.32 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9698b793-aaa2-44b2-92e4-d59330c543a7")
+	)
+	(wire
+		(pts
+			(xy 85.09 52.07) (xy 80.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b35248b-a3bc-4fd0-b6b3-ab50e891323f")
+	)
+	(wire
+		(pts
+			(xy 252.73 22.86) (xy 252.73 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce90f13-3bde-4359-ae8a-e9d607a0ec0c")
+	)
+	(wire
+		(pts
+			(xy 146.05 46.99) (xy 146.05 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e5659f-d46f-43fc-969e-a44038233278")
+	)
+	(wire
+		(pts
+			(xy 151.13 50.8) (xy 152.4 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3279756-4a1e-493d-a270-b1cf9b6069a4")
+	)
+	(wire
+		(pts
+			(xy 182.88 22.86) (xy 185.42 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a794a962-3da0-4897-8078-06818934254e")
+	)
+	(wire
+		(pts
+			(xy 176.53 22.86) (xy 176.53 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c592f9-3cad-47a1-9fbd-46afa0527669")
+	)
+	(wire
+		(pts
+			(xy 133.35 33.02) (xy 133.35 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ec2231-bf17-4e5d-a446-e5a0301ebaba")
+	)
+	(wire
+		(pts
+			(xy 190.5 81.28) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad394cf5-7ffd-47d6-a669-518caf1f0f72")
+	)
+	(wire
+		(pts
+			(xy 228.6 60.96) (xy 231.14 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7780d5-9554-4ca7-9eab-d864d44081fd")
+	)
+	(wire
+		(pts
+			(xy 186.69 16.51) (xy 182.88 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee0f4d6-5e4d-49af-8c59-bcbda69cd32e")
+	)
+	(wire
+		(pts
+			(xy 67.31 52.07) (xy 69.85 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af451dac-cbee-4bc7-abf2-8a74c2821957")
+	)
+	(wire
+		(pts
+			(xy 139.7 60.96) (xy 146.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e49e6c-31da-4087-8c2c-d53d0035d6ca")
+	)
+	(wire
+		(pts
+			(xy 152.4 63.5) (xy 152.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16fff14-133a-4fa9-a636-8972fa3365a2")
+	)
+	(wire
+		(pts
+			(xy 152.4 33.02) (xy 152.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a93ee5-5b3b-4fea-813a-bc110807f2d8")
+	)
+	(wire
+		(pts
+			(xy 176.53 60.96) (xy 176.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4493196-1e39-407c-9195-34eeb9f04963")
+	)
+	(wire
+		(pts
+			(xy 195.58 54.61) (xy 195.58 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b515a4ac-70b4-4f69-b561-0055e8866c53")
+	)
+	(wire
+		(pts
+			(xy 191.77 16.51) (xy 195.58 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6120759-9f92-415b-b333-e021644a5547")
+	)
+	(wire
+		(pts
+			(xy 73.66 130.81) (xy 73.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d402c2-cf28-4374-b394-82f9bf354fc4")
+	)
+	(wire
+		(pts
+			(xy 231.14 60.96) (xy 238.76 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b906d213-805a-40f0-861f-4b6aba3ce173")
+	)
+	(wire
+		(pts
+			(xy 195.58 22.86) (xy 195.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9470a00-a72d-4630-81b0-14ca6eca257d")
+	)
+	(wire
+		(pts
+			(xy 254 57.15) (xy 252.73 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b998e815-b2f9-4fe1-920c-3db12ac3a9a9")
+	)
+	(wire
+		(pts
+			(xy 73.66 134.62) (xy 73.66 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba66bd49-473d-4bff-b5e1-318fa9b3e037")
+	)
+	(wire
+		(pts
+			(xy 67.31 57.15) (xy 85.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacdcfba-3250-4a02-8865-df39f86c4ec6")
+	)
+	(wire
+		(pts
+			(xy 157.48 74.93) (xy 157.48 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb016acf-fdb9-42f6-a526-81ff560550ad")
+	)
+	(wire
+		(pts
+			(xy 182.88 60.96) (xy 185.42 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1cadb16-db63-4645-9291-39b116c91b7c")
+	)
+	(wire
+		(pts
+			(xy 176.53 22.86) (xy 182.88 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ad4e10-e520-4b53-ba5d-20c19f6513d3")
+	)
+	(wire
+		(pts
+			(xy 231.14 22.86) (xy 231.14 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3bc0151-9907-4101-a943-79aae215b086")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 158.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f532f6-92da-45f4-b17c-1a84f26315e3")
+	)
+	(wire
+		(pts
+			(xy 146.05 60.96) (xy 146.05 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62b581e-6d57-40fb-82f9-3f97a9338bf5")
+	)
+	(wire
+		(pts
+			(xy 195.58 77.47) (xy 195.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6463bf6-2236-42ed-bac2-a68bdefca179")
+	)
+	(wire
+		(pts
+			(xy 52.07 142.24) (xy 52.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c476c3-d2dc-467c-bf1c-d046f3704917")
+	)
+	(wire
+		(pts
+			(xy 238.76 60.96) (xy 238.76 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6dcba25-fbd4-4a87-860f-dc892574e4ec")
+	)
+	(wire
+		(pts
+			(xy 228.6 22.86) (xy 231.14 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79abab5-e20b-45a0-b838-c337adf79072")
+	)
+	(wire
+		(pts
+			(xy 195.58 48.26) (xy 231.14 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9af0b47-3eb3-46be-8396-f59dfdb29c95")
+	)
+	(polyline
+		(pts
+			(xy 266.446 102.108) (xy 266.446 114.808)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc6d9af-812a-4a8c-8f49-3bef4ba0655c")
+	)
+	(wire
+		(pts
+			(xy 231.14 60.96) (xy 231.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce22653d-fa97-4458-9fea-9e4edd508cc8")
+	)
+	(wire
+		(pts
+			(xy 231.14 86.36) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d08c1b3e-f73d-4161-9796-942713137baa")
+	)
+	(wire
+		(pts
+			(xy 168.91 36.83) (xy 176.53 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12d9196-6764-4bcd-ba55-c4d04be8b087")
+	)
+	(wire
+		(pts
+			(xy 171.45 132.08) (xy 185.42 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a78f8d-9922-4cde-9bf7-4bd4e8d265fd")
+	)
+	(wire
+		(pts
+			(xy 189.23 121.92) (xy 198.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22ba0d8-ce08-499d-8af8-77655de279f1")
+	)
+	(wire
+		(pts
+			(xy 201.93 113.03) (xy 201.93 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85f9d32-6a62-4fce-ace1-8257fe026600")
+	)
+	(wire
+		(pts
+			(xy 52.07 132.08) (xy 55.88 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8629c2f-35da-402e-acbf-52f4833d73db")
+	)
+	(wire
+		(pts
+			(xy 69.85 52.07) (xy 72.39 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a2750f-939b-4890-b036-fe9586c3077b")
+	)
+	(wire
+		(pts
+			(xy 231.14 22.86) (xy 238.76 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d94d36e4-90d0-4ed0-be6c-7918fb6009f6")
+	)
+	(wire
+		(pts
+			(xy 231.14 39.37) (xy 231.14 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1ce7ed-5977-43d6-a306-036635689a8b")
+	)
+	(wire
+		(pts
+			(xy 189.23 143.51) (xy 189.23 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1797191-93f0-48bf-affe-fab0c5325c89")
+	)
+	(wire
+		(pts
+			(xy 52.07 148.59) (xy 73.66 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45aa6e6-2e68-4a67-8ca7-4c2e03ee3f49")
+	)
+	(wire
+		(pts
+			(xy 195.58 22.86) (xy 199.39 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e466a844-50e5-4005-a2b0-9f4624bb3bc4")
+	)
+	(wire
+		(pts
+			(xy 238.76 86.36) (xy 266.7 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c40856-4adf-4966-9269-971383bf84e9")
+	)
+	(wire
+		(pts
+			(xy 133.35 53.34) (xy 135.89 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85ff99a-123b-438b-a43f-4cb4837b6b51")
+	)
+	(wire
+		(pts
+			(xy 152.4 55.88) (xy 157.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8df1fca-df2e-4c6a-8e03-b2c223fa4290")
+	)
+	(wire
+		(pts
+			(xy 266.7 19.05) (xy 261.62 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b816d2-4075-4f17-9bde-cba2a8c57400")
+	)
+	(wire
+		(pts
+			(xy 168.91 74.93) (xy 176.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb435a4b-0fd8-4fd4-98e5-17a6b6021a64")
+	)
+	(wire
+		(pts
+			(xy 238.76 48.26) (xy 238.76 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3aa7f39-f775-48b2-94cf-b8f0e0f0805d")
+	)
+	(wire
+		(pts
+			(xy 168.91 50.8) (xy 166.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c3d49d-f647-426f-8f98-2593ed951e2a")
+	)
+	(wire
+		(pts
+			(xy 69.85 41.91) (xy 69.85 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42b6795-cc3c-4fab-89e8-b87fe277afb3")
+	)
+	(wire
+		(pts
+			(xy 231.14 48.26) (xy 238.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ac194d-b1dc-4963-b9c5-7452a2ee264d")
+	)
+	(wire
+		(pts
+			(xy 254 19.05) (xy 252.73 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5271056-86aa-4b1b-9be5-706e159c90c1")
+	)
+	(wire
+		(pts
+			(xy 49.53 41.91) (xy 57.15 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf3303f-0009-4549-8b94-e035aa0150d1")
+	)
+	(wire
+		(pts
+			(xy 133.35 38.1) (xy 139.7 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba6ed93-3183-4509-9d2d-7faa08394199")
+	)
+	(wire
+		(pts
+			(xy 261.62 64.77) (xy 266.7 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe006dc6-5c06-4bc1-8c8a-2410d7727302")
+	)
+	(wire
+		(pts
+			(xy 52.07 132.08) (xy 52.07 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe859863-d1a8-44c8-933c-77401c989473")
+	)
+	(wire
+		(pts
+			(xy 250.19 22.86) (xy 252.73 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb2c8ba-84f4-484b-b3d7-ef35d09d12a2")
+	)
+	(circle
+		(center 282.194 110.744)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0e4265ed-05bc-4e8d-a3f1-6a8b3e6e2e9a)
+	)
+	(rectangle
+		(start 253.492 102.108)
+		(end 284.988 114.808)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0f1aac0b-992f-4dc8-936a-6b24a98e118d)
+	)
+	(circle
+		(center 269.494 107.95)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0f218b3b-01c0-4092-a300-47db4c310fd7)
+	)
+	(circle
+		(center 277.876 107.696)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 18ef3ed5-a3d6-4170-b61d-25b60cd94f27)
+	)
+	(circle
+		(center 273.177 107.823)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2b3f6863-9586-41e5-8331-08dfd989c00a)
+	)
+	(circle
+		(center 282.194 104.394)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2b8319d5-2064-4f8b-bb58-39a8eb7b18b2)
+	)
+	(circle
+		(center 277.876 104.648)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2c6fa2c1-a748-4939-afb7-649232941a6b)
+	)
+	(circle
+		(center 273.177 111.125)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4fc37d57-6463-48d7-b9fc-cfe5062d6b27)
+	)
+	(rectangle
+		(start 11.938 102.108)
+		(end 114.554 165.862)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 712df47f-b98a-4efc-9fca-b27dbe42017b)
+	)
+	(circle
+		(center 256.54 108.204)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 84968ae8-3a78-471c-b9e9-36ee07a1c979)
+	)
+	(circle
+		(center 282.194 107.442)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 908e8f3f-dbef-4ab6-ad38-b93d2cb997ba)
+	)
+	(rectangle
+		(start 11.938 11.938)
+		(end 114.554 102.108)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9d288ff3-db47-4825-a438-7f14b9a0f29d)
+	)
+	(rectangle
+		(start 114.554 102.108)
+		(end 284.988 165.862)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a38e2d14-4f91-464e-b2a8-e166c0241e5f)
+	)
+	(circle
+		(center 273.177 104.775)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a5100d8f-4693-41e0-9342-5c2793a7be55)
+	)
+	(circle
+		(center 269.494 104.648)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ab3c087d-4ec6-4224-87f6-4ad397bf332c)
+	)
+	(rectangle
+		(start 114.554 11.938)
+		(end 284.988 102.108)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ac65bf2d-3681-4f6a-8fc5-38ec9102022b)
+	)
+	(circle
+		(center 277.876 110.998)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b1a52277-9a00-4c2b-a533-02d27be9e0e4)
+	)
+	(circle
+		(center 264.922 104.648)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b58f044b-1dc8-42f3-9fca-75ff69454674)
+	)
+	(circle
+		(center 264.922 110.998)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b8d59d03-7243-43c9-9aa4-146230c066ee)
+	)
+	(circle
+		(center 256.54 111.252)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb6002a5-33d2-48c3-9d76-772877fe391d)
+	)
+	(circle
+		(center 256.54 105.156)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bfb6e171-c464-4382-9255-faef6c83a921)
+	)
+	(circle
+		(center 261.366 104.902)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c3292efc-f54e-4747-8398-0e24a30e0e6d)
+	)
+	(circle
+		(center 261.366 108.204)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c7c448c9-a5ff-4942-8ecc-0a4020f543ec)
+	)
+	(circle
+		(center 261.366 111.252)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d4fa1418-1e7e-4365-a30e-3d6bdf5eb758)
+	)
+	(circle
+		(center 269.494 111.252)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d68052de-f48b-4a17-8685-af77a919377c)
+	)
+	(circle
+		(center 264.922 107.95)
+		(radius 0.9158)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e20d1944-460d-469d-9db3-969e0ec161d4)
+	)
+	(text "COMPBD_COMPAC"
+		(exclude_from_sim no)
+		(at 267.462 108.204 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "08797121-feea-47b4-a58f-81576135b2fe")
+	)
+	(text "COMPB_COMPD"
+		(exclude_from_sim no)
+		(at 275.844 108.204 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "17b0d589-0a83-4413-b2f3-fd766d7efdee")
+	)
+	(text "2.1V +/- 0.1V"
+		(exclude_from_sim no)
+		(at 35.814 133.35 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "26ebeb5e-2049-483c-b401-c8b36da28d72")
+	)
+	(text "RF_FES"
+		(exclude_from_sim no)
+		(at 259.588 107.95 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "5a8d4160-624b-425c-b4c0-ffcce4a2a7a6")
+	)
+	(text "Signal jumper selection"
+		(exclude_from_sim no)
+		(at 268.986 116.332 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "65fafcda-291c-4e17-9287-fe2dec3d2f0d")
+	)
+	(text "SUMBD_SUMAC"
+		(exclude_from_sim no)
+		(at 271.526 108.204 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "ae20bc58-d2fa-4a92-89b9-efec5936e730")
+	)
+	(text "FINAL_INTERNAL\n"
+		(exclude_from_sim no)
+		(at 254.762 108.458 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "bb2f0d40-a207-4ed6-9315-8e68d45ae27b")
+	)
+	(text "COMPA_COMPC"
+		(exclude_from_sim no)
+		(at 279.908 107.95 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "e800504d-3374-4449-a880-ca8a7c753526")
+	)
+	(text "6.8k\n"
+		(exclude_from_sim no)
+		(at 199.39 68.58 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "eaaf04f9-fcf2-4985-88da-9dfefce007b3")
+	)
+	(text "SUMS_COMPONENTS\n"
+		(exclude_from_sim no)
+		(at 263.398 108.458 90)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "f01eded3-3420-4eef-9fe4-4824de17c980")
+	)
+	(label "PD_FES"
+		(at 191.77 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "0afa977b-a537-432c-ba27-782ec726fd3c")
+	)
+	(label "PD_RF"
+		(at 191.77 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "24382346-79a2-482e-a489-734ee62aa19f")
+	)
+	(label "VC(VREF)"
+		(at 266.7 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fcfe50a-43fd-4c7f-b6cf-2865080441dd")
+	)
+	(label "VC(VREF)"
+		(at 73.66 130.81 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a077d0f-f36f-466b-9f21-a5de55622d3c")
+	)
+	(label "PD_FES"
+		(at 128.27 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "700353a3-5b3a-461b-8f4d-4b0673ec69fa")
+	)
+	(label "PD_AC"
+		(at 168.91 74.93 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "983a0298-df04-412c-bf41-36500f1087c1")
+	)
+	(label "PD_RF"
+		(at 43.18 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f8d9164-b75c-4325-885f-2c1881962a43")
+	)
+	(label "PD_AC"
+		(at 204.47 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "acb1a072-1aed-4964-a01a-ad2da57ff3b5")
+	)
+	(label "PD_BD"
+		(at 204.47 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "d74387c8-c5a2-462d-9c82-b7412134287e")
+	)
+	(label "VC(VREF)"
+		(at 266.7 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbf78907-43b2-4b8f-91a5-055881375ecf")
+	)
+	(label "PD_BD"
+		(at 168.91 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff5b28fd-e17e-4752-be1b-0fecda80a2c3")
+	)
+	(global_label "PD_AC"
+		(shape input)
+		(at 168.91 74.93 270)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "7f741c7a-45ee-46e9-9463-da93e46394f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "B_SIG"
+		(shape input)
+		(at 266.7 19.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "0ad8f275-489f-4d79-872f-93dabd95c10c")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 139.7 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "13d8eea7-9646-4f17-a159-06a17156c1a1")
+	)
+	(hierarchical_label "A_SIG"
+		(shape input)
+		(at 266.7 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "26754938-9933-4166-84b4-993f1e005ff3")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 52.07 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "28cac2c9-d0dd-40f2-b619-330eb18685df")
+	)
+	(hierarchical_label "C_SIG"
+		(shape input)
+		(at 218.44 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "3799a89b-6141-4313-8a04-757dd7a0c393")
+	)
+	(hierarchical_label "MONITOR_PHOTODIODE"
+		(shape input)
+		(at 132.08 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "468ad303-c045-4576-b849-f012832953e7")
+	)
+	(hierarchical_label "A_SIG"
+		(shape input)
+		(at 218.44 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "57719c99-c0e2-4bc8-90e3-19b827423d22")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 49.53 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "5a528eef-7447-4999-a07e-849d2e186206")
+	)
+	(hierarchical_label "VC(VREF)"
+		(shape output)
+		(at 77.47 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "6c3b08b0-9529-4427-ac32-71b3c2f6d6bf")
+	)
+	(hierarchical_label "PD_CHAIN"
+		(shape output)
+		(at 167.64 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "7897c565-9ad4-45ef-9d4f-068c19036191")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 184.15 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "7b50e4d8-b31f-48a7-8d11-1aebf8ed25c8")
+	)
+	(hierarchical_label "D_SIG"
+		(shape input)
+		(at 266.7 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "801f17f0-9774-4155-b895-6905048c4474")
+	)
+	(hierarchical_label "D_SIG"
+		(shape input)
+		(at 218.44 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "8159219b-1a8d-482e-b8d0-2abfebd3e79b")
+	)
+	(hierarchical_label "RF"
+		(shape input)
+		(at 85.09 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "a10301c6-c942-468a-a0a2-9f6637be0c8c")
+	)
+	(hierarchical_label "B_SIG"
+		(shape input)
+		(at 218.44 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "ad3a5bf2-ed8b-4830-bae5-9c34cd9078cc")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 184.15 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "c59de148-d930-49d6-aa6c-2466c9ebbada")
+	)
+	(hierarchical_label "C_SIG"
+		(shape input)
+		(at 266.7 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "d70f859f-f7fe-409a-8e34-e063f3e4431b")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 139.7 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "e311d7c5-913f-44a2-9969-d5ec90236833")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 85.09 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "fd075ae7-ba64-459a-9821-8b83ba735e57")
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 162.56 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0041113a-5914-4b16-a6e8-d5b9bcddef2f")
+		(property "Reference" "R24"
+			(at 161.036 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 165.354 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 162.56 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5928a70c-7735-4719-8ea0-740620d4c477")
+		)
+		(pin "2"
+			(uuid "7f6af37d-4bc7-43d9-a880-b5d787fcbad5")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 189.23 132.08 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "012a57d1-514d-46ad-ae47-10f3c125c12b")
+		(property "Reference" "JP5"
+			(at 191.77 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 191.77 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 189.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4271f68e-24ce-4bf2-86dd-0087b5fe57fe")
+		)
+		(pin "2"
+			(uuid "06e47d41-0e6e-418a-944c-4813097c00c2")
+		)
+		(pin "3"
+			(uuid "0b545ef2-f4fb-40f6-8604-7319e1063b40")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:C_Small")
+		(at 238.76 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c0fa36c-7d5c-46e8-baca-ae0d141d88c3")
+		(property "Reference" "C9"
+			(at 240.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10pF"
+			(at 240.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edb0408f-3b07-4100-9867-be56d2da1c2b")
+		)
+		(pin "2"
+			(uuid "e3a68ef7-d486-4ba6-9dae-ca862180729e")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:C_Small")
+		(at 189.23 16.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fe5df30-889c-40a8-a17c-bc6de478d5d6")
+		(property "Reference" "C5"
+			(at 187.96 10.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39pF"
+			(at 187.96 12.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 189.23 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffb7a8be-f326-4d5a-97fd-bc6726172f50")
+		)
+		(pin "2"
+			(uuid "ed9eefe7-6144-4ed1-9d86-da8908f1a3f0")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 218.44 113.03 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11689baa-a8fb-4453-9dc3-8a7ebdf3c239")
+		(property "Reference" "JP1"
+			(at 220.98 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 220.98 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 218.44 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85d83f3e-ca01-41ad-a656-63d87c3ab69c")
+		)
+		(pin "2"
+			(uuid "3ccb305e-a812-4e4a-aa31-c1b041ba222a")
+		)
+		(pin "3"
+			(uuid "b8d0dd1f-9cda-4494-b8c8-00d867ce977a")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 171.45 142.24 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13cee134-6dfd-468b-996f-e3004a725ca6")
+		(property "Reference" "JP7"
+			(at 173.99 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 173.99 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 171.45 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76447fd6-c29f-412a-88ac-945c92e1c031")
+		)
+		(pin "2"
+			(uuid "b11babee-2e2d-4171-b085-2cd4d88d0238")
+		)
+		(pin "3"
+			(uuid "ea67a41a-5db2-4e81-9c79-4a5a5b6d2f50")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:TLC2274")
+		(at 226.06 73.66 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14e29c27-33d3-45fe-80da-78dc903e0536")
+		(property "Reference" "U9"
+			(at 224.282 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLC2274"
+			(at 224.028 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:SOIC-14_N"
+			(at 226.06 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f00ca624-e277-49ee-9bee-a930c7e4f797")
+		)
+		(pin "11"
+			(uuid "99688952-b450-48f1-bfa1-751d4ae14651")
+		)
+		(pin "2"
+			(uuid "24f36eed-6d5f-4a84-91d5-3933ffbe72b4")
+		)
+		(pin "3"
+			(uuid "d448ed02-15b0-4445-b311-e0c6053bc40d")
+		)
+		(pin "4"
+			(uuid "3f549f73-bbd1-4ac2-a760-61b4e7c9d7b2")
+		)
+		(pin "5"
+			(uuid "d2b3fb71-c549-4e14-84bf-d142ed7f3b6b")
+		)
+		(pin "6"
+			(uuid "fd016bd6-03e7-49fc-91ac-03459a751dd4")
+		)
+		(pin "7"
+			(uuid "31dce757-3c24-4022-896b-3e1b67279b8a")
+		)
+		(pin "10"
+			(uuid "2beea8b5-56d6-4b08-a06a-ce28d89be53d")
+		)
+		(pin "8"
+			(uuid "144cff33-35d9-4ddf-beb1-c45413d92492")
+		)
+		(pin "9"
+			(uuid "4a37c9f3-f7f8-40be-85b3-e7648d16e782")
+		)
+		(pin "12"
+			(uuid "ed9172b8-9962-4a65-8903-d1ef756486ec")
+		)
+		(pin "13"
+			(uuid "f50ad73a-a769-4ed7-827a-157ae1d09ccd")
+		)
+		(pin "14"
+			(uuid "21a6331c-9679-47c3-820e-3cd5fa37df3c")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "U9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:C_Small")
+		(at 152.4 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1599f29a-7fde-42c9-a92b-d8f58d9a6809")
+		(property "Reference" "C2"
+			(at 149.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22pF"
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a06cd45-4701-48dd-a1b9-a82cd3072930")
+		)
+		(pin "2"
+			(uuid "a8d5e838-f5d7-460a-b2b0-ab23c8267e6d")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 224.79 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cdb403e-2e63-40d9-b3ff-99c7c38747f5")
+		(property "Reference" "R32"
+			(at 223.266 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18k"
+			(at 223.266 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 224.79 59.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e19437ce-7da9-4fed-b95b-0f9c36229a6f")
+		)
+		(pin "2"
+			(uuid "1b94084f-2f7c-4887-b5e9-46e340994ab7")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 203.2 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22ee524f-0233-4f89-957e-cbd8187c3130")
+		(property "Reference" "R30"
+			(at 201.93 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68k"
+			(at 201.93 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 203.2 59.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d9217c6-fb17-407a-a2e7-321b996b2fbc")
+		)
+		(pin "2"
+			(uuid "c5a531fb-e1b4-409a-a4b9-32cf3118e2c2")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:TLC2274")
+		(at 190.5 36.83 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2308e4a5-d235-4491-900a-e2f99e26a75c")
+		(property "Reference" "U9"
+			(at 187.96 27.0002 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLC2274"
+			(at 187.96 29.6926 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:SOIC-14_N"
+			(at 190.5 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4efaa011-93db-45ee-86de-5658bd972180")
+		)
+		(pin "11"
+			(uuid "659adad7-acd8-4526-897d-6ee088028df8")
+		)
+		(pin "2"
+			(uuid "1f0fb3ca-1f54-4bb5-b655-9935615feca8")
+		)
+		(pin "3"
+			(uuid "5046bcea-d9ea-4be0-8dea-2434d87fe61c")
+		)
+		(pin "4"
+			(uuid "3172cebc-286a-4800-97a6-1f3f3fddbc84")
+		)
+		(pin "5"
+			(uuid "a92a7d43-10c2-4dc3-a429-cf6328f8a69b")
+		)
+		(pin "6"
+			(uuid "7dab9173-4a31-4670-952a-d659018c5c1a")
+		)
+		(pin "7"
+			(uuid "add63818-9948-4261-8199-7a0e5a40d70a")
+		)
+		(pin "10"
+			(uuid "804c89aa-c935-487d-abb0-25196be1633e")
+		)
+		(pin "8"
+			(uuid "d2c32f72-4aeb-4393-a76e-943514e5048f")
+		)
+		(pin "9"
+			(uuid "484c49de-a9bf-44da-b159-f33a3bd42be6")
+		)
+		(pin "12"
+			(uuid "b53188ef-35fc-48b8-8cfa-921b451d51d6")
+		)
+		(pin "13"
+			(uuid "24f4cfac-634e-49d5-8b2a-974a3b03471e")
+		)
+		(pin "14"
+			(uuid "d9426c28-89df-4fd5-95ad-f72a9b8fe69f")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "U9")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 189.23 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3523a5f4-d7a3-45d0-865d-6c6a4f560485")
+		(property "Reference" "R27"
+			(at 184.15 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220k"
+			(at 189.23 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 189.23 59.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76ac8a2d-cc03-4155-aa71-a538ff89aeb0")
+		)
+		(pin "2"
+			(uuid "64b92e57-7247-4974-8566-55beff20ff3e")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 246.38 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e9f4126-486a-4108-a12c-70820d34992a")
+		(property "Reference" "R34"
+			(at 245.11 56.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56k"
+			(at 245.11 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 246.38 59.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d58a8487-2e1b-4097-be85-4687f10f1014")
+		)
+		(pin "2"
+			(uuid "f10cbbea-b6fa-4ca0-a07e-f2c248b11546")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 257.81 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "446b9d0d-2030-4ae6-b388-9ed6f9b6c415")
+		(property "Reference" "R38"
+			(at 256.54 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 255.27 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 257.81 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c2882b2-ae76-4ef2-82eb-a2acc7e4afec")
+		)
+		(pin "2"
+			(uuid "0268e0a8-83ff-4dbb-a88b-8a121b15851b")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 52.07 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4baa7ff2-758b-47cb-9644-fb1d37606688")
+		(property "Reference" "R4"
+			(at 49.149 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 46.8376 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 53.848 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "693c0646-2bb6-4ee0-844f-da866e39d936")
+		)
+		(pin "2"
+			(uuid "b4133a4c-6be6-4998-867e-304c99643018")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 201.93 121.92 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "504aba78-1d73-4f24-99ce-685ea84baad7")
+		(property "Reference" "JP3"
+			(at 204.47 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 204.47 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 201.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9125326a-f0b0-4b3b-9453-e16966c8804d")
+		)
+		(pin "2"
+			(uuid "a3c79604-70d2-40ad-bb2d-1065dc2c628b")
+		)
+		(pin "3"
+			(uuid "6ff92559-9704-4b4e-bc93-09d4ea5f9382")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 143.51 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54ee18d7-b9a4-45cc-9aa9-b952ab9dcc32")
+		(property "Reference" "R21"
+			(at 145.034 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39k"
+			(at 145.034 40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 143.51 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "656d160b-3b32-459a-9259-d487917bf79e")
+		)
+		(pin "2"
+			(uuid "d34afcf3-527a-4457-8503-1960633474b8")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 203.2 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ef5282f-37e5-4b3d-b121-3ca716550dc6")
+		(property "Reference" "R29"
+			(at 200.66 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68k"
+			(at 200.66 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 203.2 21.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c573d02-1425-47ae-8527-a1f63be1752f")
+		)
+		(pin "2"
+			(uuid "6a9f72de-22cc-48c9-960b-37ab20b4651a")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 257.81 19.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6aac5d58-6a43-4d2e-973f-1319775c675e")
+		(property "Reference" "R35"
+			(at 256.54 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 255.27 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 257.81 17.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa681417-36ef-4cc2-9642-99fd43297720")
+		)
+		(pin "2"
+			(uuid "9d74e91d-2d2d-4071-b872-d58be7e06f0f")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:TLC2274")
+		(at 226.06 36.83 180)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f08e113-7f0e-4a2a-b516-13369bf3d524")
+		(property "Reference" "U9"
+			(at 223.52 27.559 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLC2274"
+			(at 223.52 29.8704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:SOIC-14_N"
+			(at 227.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc4c13a8-77a8-491c-ba94-ad27be1d189b")
+		)
+		(pin "11"
+			(uuid "c7483145-3bbc-48a9-a998-12b36cffc7fc")
+		)
+		(pin "2"
+			(uuid "4a336e7f-d5e1-452e-b4bc-a25e5a9d799f")
+		)
+		(pin "3"
+			(uuid "f7b5e3f7-3c3c-4f54-abad-d252e1dd19c9")
+		)
+		(pin "4"
+			(uuid "4334946d-6016-4f7d-bf12-42c59958a736")
+		)
+		(pin "5"
+			(uuid "4445eea4-ae09-47c1-afe4-69d3a1eef150")
+		)
+		(pin "6"
+			(uuid "4ecb709b-7eb8-4bab-ab47-8193ed2fc185")
+		)
+		(pin "7"
+			(uuid "dd2524ea-12f8-4673-bde4-f297e369cd94")
+		)
+		(pin "10"
+			(uuid "3a3b9f4a-e222-44db-8b85-e5ecd2f8cf99")
+		)
+		(pin "8"
+			(uuid "8db49390-5b01-445f-93e4-2c7e6213cc87")
+		)
+		(pin "9"
+			(uuid "c1c29b44-6511-4f44-b579-5353276bfb09")
+		)
+		(pin "12"
+			(uuid "12a2fc2f-f48b-45f0-8ddf-3ac6f20298b9")
+		)
+		(pin "13"
+			(uuid "7097eb14-200d-418d-a5b3-012ae2711b23")
+		)
+		(pin "14"
+			(uuid "cc3e3ccc-ab90-42ac-8722-559a274be55d")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "U9")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:TLC2274")
+		(at 190.5 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7068ac23-57d5-49f3-9155-735c27444a3d")
+		(property "Reference" "U9"
+			(at 187.96 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLC2274"
+			(at 187.96 66.1924 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:SOIC-14_N"
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e7025f1-5370-4186-be39-20394eb7606a")
+		)
+		(pin "11"
+			(uuid "4e3c75a6-d8fa-47a1-8ac4-52b1f7ce5623")
+		)
+		(pin "2"
+			(uuid "8555f175-cdeb-4a30-9258-d9d284eb7c00")
+		)
+		(pin "3"
+			(uuid "f16d0d00-5e7a-4305-ac69-15315819e6c2")
+		)
+		(pin "4"
+			(uuid "50113601-6806-47e0-98a7-fc4f41511869")
+		)
+		(pin "5"
+			(uuid "cbf99cdf-6720-4c6e-9a78-02f90591a327")
+		)
+		(pin "6"
+			(uuid "e5a924d0-e297-462c-938a-e1b46f9b7041")
+		)
+		(pin "7"
+			(uuid "47974c9d-7961-48b2-994b-101c51625b66")
+		)
+		(pin "10"
+			(uuid "906e1340-39c6-4e2a-bf20-9291a3355412")
+		)
+		(pin "8"
+			(uuid "11a5050c-895e-4614-ac47-3652a6e3e76d")
+		)
+		(pin "9"
+			(uuid "2b7a6d43-d1ff-47d9-af81-715f3f5faf2c")
+		)
+		(pin "12"
+			(uuid "8edbf22c-39ae-46ac-b69a-c77398efb533")
+		)
+		(pin "13"
+			(uuid "b54145d8-d6df-4f3e-a0d5-aaa48da81f8d")
+		)
+		(pin "14"
+			(uuid "d367d936-2e42-4067-85fa-18be3abba915")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:TLC2274")
+		(at 62.23 54.61 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84be298a-f60a-432e-98ab-e7ed23773a05")
+		(property "Reference" "U6"
+			(at 61.214 60.8076 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLC2274"
+			(at 61.214 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:SOIC-14_N"
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6821f14c-88d2-4546-839f-931d34c2c49e")
+		)
+		(pin "11"
+			(uuid "829cb4b0-654c-42eb-a38d-98d574c1dce0")
+		)
+		(pin "2"
+			(uuid "648fb610-5af3-471b-8545-8f7996606e75")
+		)
+		(pin "3"
+			(uuid "21a2b496-3670-41d6-9bdf-cf3efb006f8b")
+		)
+		(pin "4"
+			(uuid "f3190c18-cf8a-4655-b992-e2f0cf58336d")
+		)
+		(pin "5"
+			(uuid "bd2371d5-1f6a-4cb9-9d34-8b8a5ced640f")
+		)
+		(pin "6"
+			(uuid "e6b6cc0a-fce5-4b86-867b-fceee5aadde1")
+		)
+		(pin "7"
+			(uuid "d071104b-c1c9-4555-9318-db766ce68f27")
+		)
+		(pin "10"
+			(uuid "a74972b3-3c43-4074-9f8d-58fd2c2faa3e")
+		)
+		(pin "8"
+			(uuid "a9fad5a2-2279-400b-88c2-2b3dd78480bd")
+		)
+		(pin "9"
+			(uuid "533da54b-ff61-4cd5-9174-a660c5ab3787")
+		)
+		(pin "12"
+			(uuid "fc3e75b8-b80a-4d67-b2e9-8e3c47930ccc")
+		)
+		(pin "13"
+			(uuid "09367f42-b8c3-44e1-bcf4-a892b4650bc8")
+		)
+		(pin "14"
+			(uuid "ee3887f7-1165-4ff7-8476-259da5c36ebe")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 162.56 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bec336d-7fe1-4d79-8363-310f01368904")
+		(property "Reference" "R23"
+			(at 161.036 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 165.354 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 162.56 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "145df90e-0444-4c3d-be9c-096011942a72")
+		)
+		(pin "2"
+			(uuid "deb3c7da-d22b-48a1-8632-5019181911c4")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 189.23 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "952ab798-d318-4c5e-8734-da4f39d1ca83")
+		(property "Reference" "R26"
+			(at 182.88 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220k"
+			(at 186.69 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 189.23 21.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7343af31-0275-4185-8c65-ee104f1a16a2")
+		)
+		(pin "2"
+			(uuid "aa7cd1ca-2a96-4b63-afc1-f253e4e7bdd3")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:TLC2274")
+		(at 60.96 134.62 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a367d347-fe5b-4b71-af78-8ff16f374e92")
+		(property "Reference" "U1"
+			(at 63.5 124.7394 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLC2274"
+			(at 63.5 127.4318 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:SOIC-14_N"
+			(at 60.96 134.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 134.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8df83943-007a-4954-b7ba-fdef710ba861")
+		)
+		(pin "11"
+			(uuid "91b072df-b95a-4985-a3a5-81d94cdc0a94")
+		)
+		(pin "2"
+			(uuid "29b049b7-f4d5-4303-a685-bfabdef4221b")
+		)
+		(pin "3"
+			(uuid "c048a11a-1a9b-458e-a3ec-e9c6d3d41831")
+		)
+		(pin "4"
+			(uuid "83c4d1da-be45-4f05-a7a7-6fa41c38aace")
+		)
+		(pin "5"
+			(uuid "2fbcc27c-7c99-4e63-886a-44c66bfaa69c")
+		)
+		(pin "6"
+			(uuid "bc8993df-8931-4d4f-9056-7026e8d0d885")
+		)
+		(pin "7"
+			(uuid "45f30c82-80f5-4155-a1a7-a84ab1489b8c")
+		)
+		(pin "10"
+			(uuid "c717558b-b837-4de1-ae6a-09b6d7e7d1b1")
+		)
+		(pin "8"
+			(uuid "36652c0f-ca81-4e9c-bb81-fc6595e13b3e")
+		)
+		(pin "9"
+			(uuid "2261fe9a-d0c7-4a5b-b819-40dd75cd04aa")
+		)
+		(pin "12"
+			(uuid "70dff31b-22f2-4b35-beb0-2d142143903f")
+		)
+		(pin "13"
+			(uuid "af880799-0642-4e25-ae0e-62bc7ecadc0b")
+		)
+		(pin "14"
+			(uuid "2feacbc4-8292-4567-998f-8b183d1210fd")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 157.48 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad97ee1c-d297-46ca-9f6c-4dee739caef4")
+		(property "Reference" "R22"
+			(at 163.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39k"
+			(at 163.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 159.258 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9413396-c872-4764-bf25-7b0870c21c01")
+		)
+		(pin "2"
+			(uuid "8d3818cf-3925-4263-9e23-9f01181c7a66")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 257.81 26.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adcaa4c2-d4b6-4d48-8542-93ea1f85074f")
+		(property "Reference" "R36"
+			(at 256.54 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 255.27 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 257.81 24.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17df68fd-9f28-490b-83b4-9f5d678454f6")
+		)
+		(pin "2"
+			(uuid "3732f2e1-cb99-4847-abdc-42853ffadf13")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 60.96 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af6f84a0-b6c8-4564-881b-ec6e7086ac84")
+		(property "Reference" "R25"
+			(at 60.96 38.989 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "560k"
+			(at 60.96 36.6776 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 60.96 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4f531e3-38e3-49af-ab52-864f15792624")
+		)
+		(pin "2"
+			(uuid "5a0b1feb-94bc-4f09-a62e-d153752c034c")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 257.81 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bec30fad-bde1-437f-a78d-2f5889fde707")
+		(property "Reference" "R37"
+			(at 256.54 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k"
+			(at 255.27 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 257.81 55.372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e70d467-86e1-4d27-b46d-3c9106caa84b")
+		)
+		(pin "2"
+			(uuid "ed3ddb5b-2919-4380-b903-c8748e9430fa")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 76.2 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c37af0fa-7008-4afd-a756-fe212b17d894")
+		(property "Reference" "R28"
+			(at 76.2 49.149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.7k"
+			(at 76.2 46.8376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 76.2 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "381e5abc-0de3-42ae-8765-51d320f3e545")
+		)
+		(pin "2"
+			(uuid "a6328c69-6aea-48bf-8f58-74bea5881963")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 201.93 143.51 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c420f151-cb6a-4f2b-8d7a-048754b4b6d8")
+		(property "Reference" "JP4"
+			(at 204.47 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 204.47 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f699a5b7-91dd-4f6c-af8f-4db2e36890ae")
+		)
+		(pin "2"
+			(uuid "22d04bc0-2b31-4632-b1ab-4153369cfd10")
+		)
+		(pin "3"
+			(uuid "55f43470-6dfd-4583-9a21-668b6739dfa4")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:C_Small")
+		(at 238.76 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9754d58-884a-4af3-86ff-811671af7927")
+		(property "Reference" "C10"
+			(at 240.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10pF"
+			(at 240.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 238.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ea17653-f205-4bea-b23b-bb5f91009655")
+		)
+		(pin "2"
+			(uuid "326d2d4c-7825-4870-88f9-1856705fe537")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 246.38 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca0f924c-007c-4ab6-9525-75f12dd6eca1")
+		(property "Reference" "R33"
+			(at 245.11 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "56k"
+			(at 245.11 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 246.38 21.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06b74486-fbd3-4752-b458-6eabd93df8ab")
+		)
+		(pin "2"
+			(uuid "2053ec84-d5cc-4a9c-a505-a1944638ff72")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:C_Small")
+		(at 189.23 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cab24911-f037-470b-8a84-927060fccecb")
+		(property "Reference" "C8"
+			(at 187.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39pF"
+			(at 187.96 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 189.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeac7117-7b04-483b-a859-9f5da5e34d58")
+		)
+		(pin "2"
+			(uuid "58c9f397-5b90-4f98-b8e0-cf449957c6ee")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 189.23 153.67 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cff858c9-b746-4c8e-951f-2e830990f8b9")
+		(property "Reference" "JP6"
+			(at 191.77 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 191.77 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 189.23 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a909d2e-fa74-4473-8b5e-4aaae9f79183")
+		)
+		(pin "2"
+			(uuid "8338ea1f-3deb-4a1b-82da-94c460adbc0a")
+		)
+		(pin "3"
+			(uuid "8800a023-0f29-4179-83d0-53f456c6672c")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:C_Small")
+		(at 143.51 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1c0df04-022d-4dec-aa94-32419818c9da")
+		(property "Reference" "C1"
+			(at 144.526 30.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22pF"
+			(at 148.59 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 143.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3bf3028-a4fa-445e-87bf-ed10761dce4f")
+		)
+		(pin "2"
+			(uuid "a66866f1-9b71-4e67-82d3-5c7bf3b20716")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 52.07 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6e656a8-9579-4183-ab84-6640d38442b7")
+		(property "Reference" "R1"
+			(at 49.149 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 46.8376 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 53.848 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69176f6d-84e4-4e1d-b03a-6a2149636573")
+		)
+		(pin "2"
+			(uuid "a77a8b1b-f0b4-4784-9cd8-07544b045fdb")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:CP_Small")
+		(at 73.66 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1ca886c-ebdd-4582-9679-6fbe025485e6")
+		(property "Reference" "C3"
+			(at 75.8952 137.2616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 75.8952 139.573 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitors_SMD:C_1210_HandSoldering"
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2b2c97a-e2ba-4623-9353-1b6894e8eb3d")
+		)
+		(pin "2"
+			(uuid "bc314f03-0ee8-45e2-b3c0-98eb005c36dc")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 218.44 130.81 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f235ef6b-b0b6-45fd-b434-71c8d60bea61")
+		(property "Reference" "JP2"
+			(at 220.98 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 220.98 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff0e5497-a6fb-489e-a4c7-2aad443de571")
+		)
+		(pin "2"
+			(uuid "5c98f1b0-41ff-488d-a9c3-10d9f74857c4")
+		)
+		(pin "3"
+			(uuid "f510c015-ccf7-4596-a135-80c8215fc526")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:R")
+		(at 224.79 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f58b58b4-f192-4250-88ad-19c31f936ad6")
+		(property "Reference" "R31"
+			(at 222.25 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18k"
+			(at 222.25 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:0805G"
+			(at 224.79 21.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7747b489-93f2-4b18-b2aa-b499fdf2bc2b")
+		)
+		(pin "2"
+			(uuid "dc9f5d62-5342-4c05-ac67-cd4be99c8453")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:TLC2274")
+		(at 146.05 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9be964a-9443-452f-913e-695b2e3d2430")
+		(property "Reference" "U6"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLC2274"
+			(at 154.686 53.086 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:SOIC-14_N"
+			(at 146.05 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80cecfd2-39f5-43b5-9c34-0a0406f50590")
+		)
+		(pin "11"
+			(uuid "c5b9e1bb-b00f-4391-9bf3-5bb09f41b84f")
+		)
+		(pin "2"
+			(uuid "11a6c16c-1d66-4a19-9794-290c7909481f")
+		)
+		(pin "3"
+			(uuid "56e080cf-bdc3-4740-b373-ad13db46a5fd")
+		)
+		(pin "4"
+			(uuid "dbcf5f7a-e0dc-4a65-a4fd-d5bd64c9a4e0")
+		)
+		(pin "5"
+			(uuid "765158fc-d969-40c4-9de3-269d9a014072")
+		)
+		(pin "6"
+			(uuid "c7a3e755-1429-4fd6-8b41-872bd4226dd2")
+		)
+		(pin "7"
+			(uuid "b7c5fa75-5697-4444-9135-8753f707fb3c")
+		)
+		(pin "10"
+			(uuid "bee7dfb8-a220-474f-a75f-c7da99220002")
+		)
+		(pin "8"
+			(uuid "52d947c2-4791-4183-b628-d9f5d4d384fb")
+		)
+		(pin "9"
+			(uuid "f13a2cba-a380-4eb3-82d6-b58441f91091")
+		)
+		(pin "12"
+			(uuid "083b3369-dc4b-4116-bedb-02e442027f9d")
+		)
+		(pin "13"
+			(uuid "f3101fb5-5319-4a03-a818-196497c3fceb")
+		)
+		(pin "14"
+			(uuid "ad8bfd6d-0e53-468e-86e3-ab8b8d6ee33d")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/aa42b00b-51e5-4b48-9a6c-232df2f67b24"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

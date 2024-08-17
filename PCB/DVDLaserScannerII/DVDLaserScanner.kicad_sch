@@ -1,0 +1,1176 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "052f44d0-356a-4774-847b-27558aa4429e")
+	(paper "A3")
+	(lib_symbols)
+	(junction
+		(at 161.29 148.59)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "27ef2275-25f6-48dc-bda2-a367122f9f1c")
+	)
+	(junction
+		(at 152.4 125.73)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "389f0b3b-83dd-41d3-81a1-16e02f6d12d4")
+	)
+	(junction
+		(at 161.29 95.25)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "458de5c0-28a8-4403-ad19-6b90d6f10a86")
+	)
+	(junction
+		(at 274.32 104.14)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "49f2948f-4449-41f7-87e2-e00ace8660dc")
+	)
+	(junction
+		(at 161.29 121.92)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "66b5b272-101f-4a5c-b85d-ba1d3da7fc76")
+	)
+	(junction
+		(at 152.4 104.14)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "6a295334-9a6c-4098-b0b1-acb3b71341fb")
+	)
+	(junction
+		(at 134.62 104.14)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "8ed5c8a3-45b8-42a7-b51b-743212e91ba0")
+	)
+	(junction
+		(at 250.19 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92037ec1-0c07-4ee2-b4fc-ef22adc7591e")
+	)
+	(junction
+		(at 274.32 95.25)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "beffa938-ea96-4eba-bd43-2ec8e3383d93")
+	)
+	(junction
+		(at 152.4 152.4)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "de716c4a-1323-47e5-8504-ab9bc13df415")
+	)
+	(junction
+		(at 274.32 107.95)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "ff7c698c-151e-4b2f-92a5-7310d03233ec")
+	)
+	(wire
+		(pts
+			(xy 130.81 95.25) (xy 161.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "03557bc2-c4c8-4ff0-bded-e139c0efb6b3")
+	)
+	(wire
+		(pts
+			(xy 245.11 194.31) (xy 278.13 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0947a480-05bf-4e65-9835-1f86ff1b9c9d")
+	)
+	(wire
+		(pts
+			(xy 274.32 99.06) (xy 274.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "09a8e022-ab3b-4464-bb05-11ea1abc71f7")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 152.4 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "09cf6123-e2bf-4a27-92cb-26b5267530ad")
+	)
+	(wire
+		(pts
+			(xy 167.64 176.53) (xy 161.29 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1246d6df-6ee2-48c5-ace9-891b86450947")
+	)
+	(wire
+		(pts
+			(xy 245.11 186.69) (xy 278.13 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1258f726-8bc6-46e2-9fe0-74afa6640207")
+	)
+	(wire
+		(pts
+			(xy 130.81 198.12) (xy 161.29 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "128c6d82-8c54-4ecd-86dd-eaecee54bdf2")
+	)
+	(wire
+		(pts
+			(xy 278.13 123.19) (xy 274.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "13d8f495-4857-4238-92c9-e0a37111ef37")
+	)
+	(wire
+		(pts
+			(xy 274.32 104.14) (xy 278.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "15406551-ffca-4f25-a835-4205f77a30d3")
+	)
+	(wire
+		(pts
+			(xy 245.11 179.07) (xy 278.13 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227b4e21-3981-4883-97b7-4c938c310339")
+	)
+	(wire
+		(pts
+			(xy 245.11 156.21) (xy 278.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261c062d-a2f2-437d-8fa2-ff7dfe23530c")
+	)
+	(wire
+		(pts
+			(xy 152.4 125.73) (xy 167.64 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2e8438ee-2960-4b51-9ffe-1a95a43dbea6")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.14) (xy 134.62 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "31832781-ba86-4885-85f5-d58e205b5c64")
+	)
+	(wire
+		(pts
+			(xy 250.19 206.756) (xy 250.19 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b149daf-7ef0-4e5f-834f-641696e191e8")
+	)
+	(wire
+		(pts
+			(xy 167.64 180.34) (xy 152.4 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "3e6f2e2e-2e1a-48a3-9381-64e0ce542a2e")
+	)
+	(wire
+		(pts
+			(xy 245.11 175.26) (xy 278.13 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c4d8ad-a994-461d-8aed-bf4a980b4bc2")
+	)
+	(wire
+		(pts
+			(xy 161.29 148.59) (xy 167.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4a35309c-c5b6-4667-9b26-ceca79d9433e")
+	)
+	(wire
+		(pts
+			(xy 152.4 125.73) (xy 152.4 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "5155ca2f-457a-4285-98b6-73a320f8bdc9")
+	)
+	(wire
+		(pts
+			(xy 130.81 157.48) (xy 167.64 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593d886b-f471-4476-84f0-ff311cb53c72")
+	)
+	(wire
+		(pts
+			(xy 161.29 121.92) (xy 161.29 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "74d5d880-c352-4dbf-ab64-f53aae42b02c")
+	)
+	(wire
+		(pts
+			(xy 161.29 95.25) (xy 161.29 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "7ae47d92-fa55-40de-8c5e-6b7a555bedb7")
+	)
+	(wire
+		(pts
+			(xy 161.29 176.53) (xy 161.29 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "83d17005-4f45-4a59-ae5a-e4df0de84bea")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 274.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "84088294-c7a1-427c-8743-0e9909e4cb76")
+	)
+	(wire
+		(pts
+			(xy 130.81 129.54) (xy 167.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86988cbb-4135-4a17-aec9-55abea522c9c")
+	)
+	(wire
+		(pts
+			(xy 161.29 121.92) (xy 167.64 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "93b8e5ed-521a-4c64-b1e7-59a9132bcb67")
+	)
+	(wire
+		(pts
+			(xy 130.81 110.49) (xy 134.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "972923af-83fc-470a-9e6a-81bba465c9b1")
+	)
+	(wire
+		(pts
+			(xy 274.32 104.14) (xy 274.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "9a027ea5-d5bd-42c2-9bef-51403ee7b51c")
+	)
+	(wire
+		(pts
+			(xy 167.64 152.4) (xy 152.4 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "9db6b9a7-0c06-49f5-9c13-098e1383bf61")
+	)
+	(wire
+		(pts
+			(xy 278.13 99.06) (xy 274.32 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "afb09ad6-9d69-4cc3-b1e2-293cec758331")
+	)
+	(wire
+		(pts
+			(xy 278.13 107.95) (xy 274.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b11ebf04-8c8c-441c-9633-2f1cb3267745")
+	)
+	(wire
+		(pts
+			(xy 134.62 110.49) (xy 134.62 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b25b4dac-a91d-4863-87fa-a0cbe2b911b7")
+	)
+	(wire
+		(pts
+			(xy 274.32 107.95) (xy 274.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "b3d428f8-b427-4a61-a2c1-523b2371185f")
+	)
+	(wire
+		(pts
+			(xy 161.29 95.25) (xy 274.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b41686bb-c47a-4cdc-a60f-9d70f58ec9ec")
+	)
+	(wire
+		(pts
+			(xy 161.29 198.12) (xy 161.29 206.756)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50913d9-15a7-452a-9b80-0d0ee0c82b68")
+	)
+	(wire
+		(pts
+			(xy 245.11 198.12) (xy 250.19 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c543d1-a323-4213-a619-26afb73f9295")
+	)
+	(wire
+		(pts
+			(xy 245.11 182.88) (xy 278.13 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c8ef48-b50c-4631-a42f-5fbaefd9bba4")
+	)
+	(wire
+		(pts
+			(xy 248.92 127) (xy 278.13 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7edbeef-2568-41ca-a6c7-251941e6e1de")
+	)
+	(wire
+		(pts
+			(xy 152.4 180.34) (xy 152.4 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "d9344be1-d1b9-4761-8469-f1382825f04e")
+	)
+	(wire
+		(pts
+			(xy 245.11 190.5) (xy 278.13 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e058a5f1-156a-4120-aaba-d5018604e90f")
+	)
+	(wire
+		(pts
+			(xy 130.81 194.31) (xy 167.64 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4678a38-d751-4311-b6a5-419b5c12864e")
+	)
+	(wire
+		(pts
+			(xy 161.29 206.756) (xy 250.19 206.756)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02dfe90-fc54-43d0-ac36-95ae83baff03")
+	)
+	(wire
+		(pts
+			(xy 134.62 104.14) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f520fb35-014f-4d83-9f4a-e399c44c4749")
+	)
+	(wire
+		(pts
+			(xy 274.32 95.25) (xy 278.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f6f53ff1-11e1-477e-9481-0ae192ac0cee")
+	)
+	(wire
+		(pts
+			(xy 250.19 198.12) (xy 278.13 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa131a0a-1c7d-41aa-801d-6afc452daa96")
+	)
+	(rectangle
+		(start 290.83 99.314)
+		(end 310.134 109.728)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0ed669a5-3cdc-4018-ade8-eb7cde952292)
+	)
+	(text "1.375V / -0.875V   1/1.8181\n ±0.67 V  / 1/3.7313"
+		(exclude_from_sim no)
+		(at 157.48 5.08 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "10fcbbe2-49a7-4da8-bcab-02a3baba9a37")
+	)
+	(text "Focus: +1.1 mm / -0.7 mm\n0.80 mm/V (positiv = aproach disk)\n\nTracking: ±0.4 mm\n0.60 mm/V (positv = periphery  of disk)\n\nImax 220 mA"
+		(exclude_from_sim no)
+		(at 158.75 -6.35 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "50461b2b-26f8-40d9-b73d-e3b1082c79d8")
+	)
+	(text "CD/DVD_SW LASER\n\nH   UV (CD)\nL   RED (DVD)\n"
+		(exclude_from_sim no)
+		(at 292.1 108.966 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7234edd-59a4-4e57-a0c2-9477e95fd077")
+	)
+	(sheet
+		(at 73.66 91.44)
+		(size 57.15 110.49)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "2cc208c2-9940-4a2a-a638-252d6a9564eb")
+		(property "Sheetname" "Controller"
+			(at 86.614 201.549 0)
+			(effects
+				(font
+					(size 3.048 3.048)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 73.406 203.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AWG1" input
+			(at 130.81 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "7851afd5-e8d7-427f-9757-d4389b0bf758")
+		)
+		(pin "GND" output
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "c6d29e60-ae01-4827-8b9a-84c83dd19add")
+		)
+		(pin "SC1P" input
+			(at 130.81 194.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "4f202f41-3f48-4aa3-9e80-cb360eb54328")
+		)
+		(pin "SC2P" input
+			(at 130.81 187.325 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "6ef4a694-a771-4de6-8a34-55e8e198da06")
+		)
+		(pin "AWG2" input
+			(at 130.81 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "efb9a2cb-cde0-41e8-a5db-7cd9c2960106")
+		)
+		(pin "SC1N" input
+			(at 130.81 198.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "bf040658-de31-4042-9098-7f4ed3a6ba70")
+		)
+		(pin "SC2N" input
+			(at 130.81 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "5f56f96c-e6c9-4e55-b025-b898f2e3f084")
+		)
+		(pin "5V" output
+			(at 130.81 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "3f34a270-f945-4d40-af21-124626a680f8")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 278.13 92.71)
+		(size 67.31 109.22)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "441f4cb6-fbcc-4f11-b3b3-1ad3951f46a3")
+		(property "Sheetname" "Optical Pickup Unit"
+			(at 290.322 200.66 0)
+			(effects
+				(font
+					(size 3.048 3.048)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opu.kicad_sch"
+			(at 277.876 202.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A{slash}a" output
+			(at 278.13 175.26 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "08cfff69-6d58-46fb-9328-2f889a13f45f")
+		)
+		(pin "C{slash}c" output
+			(at 278.13 182.88 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "1fea8f8d-2a60-4894-9395-03e7b14297e9")
+		)
+		(pin "D{slash}d" output
+			(at 278.13 186.69 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "6d7a7ee9-4c28-4c0e-8c80-7fe8cc7c5c2f")
+		)
+		(pin "B{slash}b" output
+			(at 278.13 179.07 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "500d3ad2-b284-481e-ab1c-e50f7885223b")
+		)
+		(pin "RF" output
+			(at 278.13 190.5 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "46dd16e0-ad48-4d0d-99dd-bab864e8f129")
+		)
+		(pin "MD" output
+			(at 278.13 194.31 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "efde5506-d5ab-4053-998f-a706cca76403")
+		)
+		(pin "VC(VREF)" input
+			(at 278.13 198.12 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "8ad25eac-09c3-4e65-b0c9-500041823141")
+		)
+		(pin "DVD_LD" input
+			(at 278.13 95.25 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "b340d1b1-e670-40db-9d19-b2b307e7a09d")
+		)
+		(pin "CD{slash}DVD_SW" input
+			(at 278.13 104.14 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "50e979c9-03f6-4083-b22d-97d685572432")
+		)
+		(pin "VCC" input
+			(at 278.13 99.06 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "afe4c9c8-cfc3-4a49-b81b-69547e34d1cf")
+		)
+		(pin "GND_PD" input
+			(at 278.13 107.95 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "0e1a9357-1586-4d58-a41a-e2ffd2798ede")
+		)
+		(pin "GND_LD" input
+			(at 278.13 156.21 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "18753ea7-5105-41d7-99af-cc209027dc56")
+		)
+		(pin "F-" input
+			(at 278.13 123.19 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "dbe14de5-69f7-4048-8cd0-845964fbc193")
+		)
+		(pin "F+" input
+			(at 278.13 127 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "d087095d-baaf-4d1e-9e4f-85c826aa871e")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 144.78)
+		(size 77.47 20.32)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "7721833c-3574-4248-84cf-0edd7cdc12ca")
+		(property "Sheetname" "Emission control block"
+			(at 179.578 165.481 0)
+			(effects
+				(font
+					(size 3.048 3.048)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "emission.kicad_sch"
+			(at 167.64 166.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 167.64 148.59 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "57482161-524a-48d6-8d73-3049ef8a357f")
+		)
+		(pin "LD_DVD" output
+			(at 245.11 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "d505ee68-508d-4309-8a7e-e4158441d355")
+		)
+		(pin "GND" input
+			(at 167.64 152.4 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "1511cbcd-b59e-4c11-8d12-dc1d19b2038e")
+		)
+		(pin "INTENSITY" input
+			(at 167.64 157.48 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "b6cd20a2-f76c-4b38-b4ac-7af8236572d7")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 173.736)
+		(size 77.47 27.94)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "aa42b00b-51e5-4b48-9a6c-232df2f67b24")
+		(property "Sheetname" "Sensing block"
+			(at 187.706 200.914 0)
+			(effects
+				(font
+					(size 3.048 3.048)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensing.kicad_sch"
+			(at 167.64 202.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "B_SIG" input
+			(at 245.11 179.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "87eedb92-d0e8-4179-bc0c-01e5dfd39067")
+		)
+		(pin "D_SIG" input
+			(at 245.11 186.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "253aea15-b542-4ffd-8c91-ed853d820235")
+		)
+		(pin "A_SIG" input
+			(at 245.11 175.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "3521d355-08cc-4546-b68d-8ec3ad7de366")
+		)
+		(pin "C_SIG" input
+			(at 245.11 182.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "fd66a282-7bfb-46a8-85c7-eb07e4462c31")
+		)
+		(pin "PD_CHAIN" output
+			(at 167.64 194.31 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "420d3fc0-c5b3-4bf3-9dff-0c8e5dfae947")
+		)
+		(pin "RF" input
+			(at 245.11 190.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "678142b3-dd5c-4031-b572-b317fbf5266a")
+		)
+		(pin "GND" input
+			(at 167.64 180.34 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "4ddcb0ad-4f71-4a89-82b5-e24be906b659")
+		)
+		(pin "5V" input
+			(at 167.64 176.53 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "e0b9214b-c9d0-4840-84a3-e7713eed308e")
+		)
+		(pin "VC(VREF)" output
+			(at 245.11 198.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "c55d43cb-92b8-4637-bd6f-6b2f75896af5")
+		)
+		(pin "MONITOR_PHOTODIODE" input
+			(at 245.11 194.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "f909c331-93e3-4dd4-802e-841d1e6d0354")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 167.64 118.11)
+		(size 81.28 20.32)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "e0f949d5-2ade-4b83-a169-ff0e7cb62808")
+		(property "Sheetname" "Actuation control block"
+			(at 179.578 137.414 0)
+			(effects
+				(font
+					(size 3.048 3.048)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "actuation.kicad_sch"
+			(at 167.64 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 167.64 121.92 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "1f4e58d1-7a76-4a0b-ac3a-80e8cb0fabff")
+		)
+		(pin "F+" input
+			(at 248.92 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "265c6ce2-6381-4281-8905-2531bd3dec1c")
+		)
+		(pin "FOCUS_CTL" input
+			(at 167.64 129.54 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "09976512-dc9e-4d49-bbd2-7cfa8ac7206d")
+		)
+		(pin "GND" input
+			(at 167.64 125.73 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "1e399f33-aabb-4ddf-9820-bf58d14eb6bf")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
