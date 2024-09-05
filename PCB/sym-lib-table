@@ -1,3 +1,8 @@
 (sym_lib_table
-  (lib (name DVDLaserScanner-rescue)(type Legacy)(uri ${KIPRJMOD}/DVDLaserScanner-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "DVDLaserScanner-rescue")(type "Legacy")(uri "${KIPRJMOD}/DVDLaserScanner-rescue.lib")(options "")(descr ""))
+  (lib (name "TLV4111")(type "KiCad")(uri "${KIPRJMOD}/local-symbols-footprints/TLV4111/TLV4111CD.kicad_sym")(options "")(descr ""))
+  (lib (name "scanner")(type "KiCad")(uri "${KIPRJMOD}/local-symbols-footprints/scanner.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8410")(type "KiCad")(uri "${KIPRJMOD}/local-symbols-footprints/DRV8410/2024-08-19_04-05-17.kicad_sym")(options "")(descr ""))
+  (lib (name "AD8937")(type "KiCad")(uri "${KIPRJMOD}/local-symbols-footprints/AD8937.kicad_sym")(options "")(descr ""))
 )

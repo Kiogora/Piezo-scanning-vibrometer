@@ -258,6 +258,256 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DVDLaserScanner-rescue:CP_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP_Small_0_1"
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "DVDLaserScanner-rescue:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -384,7 +634,285 @@
 				)
 			)
 		)
-		(symbol "DVDLaserScanner-rescue:R"
+		(symbol "Device:D_Zener_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener_Small"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_Small_0_1"
+				(polyline
+					(pts
+						(xy 0.762 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Variable_US"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -393,19 +921,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 2.54 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_Variable_US"
+				(at -2.54 -1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -417,7 +947,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -426,7 +956,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Variable resistor, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -435,7 +965,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_* R_*"
+			(property "ki_keywords" "R res resistor variable potentiometer rheostat"
 				(at 0 0 0)
 				(effects
 					(font
@@ -444,20 +974,90 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Variable_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 1.524) (xy 2.54 2.54) (xy 1.524 2.286) (xy 2.54 2.54) (xy -2.032 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_Variable_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -496,8 +1096,9 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:BSS138"
-			(pin_names hide)
+		(symbol "Transistor_BJT:2N3905"
+			(pin_names
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -510,7 +1111,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BSS138"
+			(property "Value" "2N3905"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -519,7 +1120,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -530,8 +1131,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-				(at 5.08 -3.81 0)
+			(property "Datasheet" "https://www.nteinc.com/specs/original/2N3905_06.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -540,7 +1141,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
 				(at 0 0 0)
 				(effects
 					(font
@@ -549,7 +1150,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET"
+			(property "ki_keywords" "PNP Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -558,7 +1159,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "TO?92*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -567,10 +1168,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "BSS138_0_1"
+			(symbol "2N3905_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -582,55 +1183,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -642,10 +1195,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
 					)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -654,19 +1207,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -676,33 +1217,9 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
-					(center 1.651 0)
-					(radius 2.794)
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -711,34 +1228,12 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
-			(symbol "BSS138_1_1"
-				(pin input line
-					(at -5.08 0 0)
+			(symbol "2N3905_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -753,10 +1248,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -774,7 +1269,7 @@
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "D"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -793,248 +1288,820 @@
 		)
 	)
 	(junction
-		(at 171.45 104.14)
+		(at 119.38 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3eb9dae4-b5ee-4f02-b379-68d8a226dc93")
+		(uuid "106b8494-b7b7-48e0-9c7b-f9ce72a5bb7d")
 	)
 	(junction
-		(at 153.67 95.25)
+		(at 175.26 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "414b4d2c-161c-4173-8aec-fab4358d3f5a")
+		(uuid "165ff3f9-43b2-43ae-aa70-738be4f7509b")
 	)
 	(junction
-		(at 153.67 104.14)
+		(at 139.7 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a22675f3-77bc-4243-a4ce-330f61efa19b")
+		(uuid "33ed3020-f173-404c-8cf7-d8b8652ba7dd")
 	)
 	(junction
-		(at 140.97 115.57)
+		(at 165.1 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b04d50c3-6135-4dda-86e3-640239af6b1e")
+		(uuid "37cff2e7-92c5-4986-a0f5-01c48fa3cc20")
+	)
+	(junction
+		(at 104.14 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e2d1df7-d9cf-46b1-ad51-119de2ea7e81")
+	)
+	(junction
+		(at 95.25 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "515b0103-f016-48bc-a195-663f0aebf6a5")
+	)
+	(junction
+		(at 175.26 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5935334b-3c53-41d8-8bbc-d00087a658ef")
+	)
+	(junction
+		(at 119.38 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "701e6bbd-2612-4682-a8fc-e712d91082af")
+	)
+	(junction
+		(at 127 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "754ec75c-8f28-48be-a0d4-00303ddeef07")
+	)
+	(junction
+		(at 104.14 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d650762-13a8-486b-8c2f-1c138e501787")
+	)
+	(junction
+		(at 187.96 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9f2daa5-f677-4317-bdfb-662d747b59bb")
+	)
+	(junction
+		(at 95.25 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c06804dd-3535-47cc-83b5-15acd2751d2b")
+	)
+	(junction
+		(at 123.19 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5d8f279-76a2-4cab-b4cb-82bb65fd5750")
+	)
+	(junction
+		(at 165.1 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d456ecfe-5b15-458b-9201-da83c35ef228")
+	)
+	(junction
+		(at 156.21 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1d58b4b-7683-4d08-b96a-147152daf1cc")
+	)
+	(junction
+		(at 119.38 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eedef4f6-7cd6-42e0-a3b8-30de6f3d76c6")
+	)
+	(junction
+		(at 104.14 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7ddd0f4-a064-42cc-9acb-7d23e49b276b")
 	)
 	(wire
 		(pts
-			(xy 171.45 104.14) (xy 171.45 105.41)
+			(xy 163.83 109.22) (xy 175.26 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02aea447-fcd3-42a9-92a1-09e025ff5098")
+		(uuid "02855df3-415f-431d-a078-80804ff60ca1")
 	)
 	(wire
 		(pts
-			(xy 171.45 104.14) (xy 165.1 104.14)
+			(xy 156.21 109.22) (xy 149.86 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "092a7d46-d6b2-4b04-85b7-58fe06d021a7")
+		(uuid "02e51d7e-3aaa-4115-8fa9-062af19756d8")
 	)
 	(wire
 		(pts
-			(xy 153.67 104.14) (xy 157.48 104.14)
+			(xy 95.25 82.55) (xy 104.14 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b7b6716-d8e4-4d5f-a2a4-bc40a13e83dd")
+		(uuid "09148b09-d63c-44b6-9b92-5fc1f632c015")
 	)
 	(wire
 		(pts
-			(xy 151.13 95.25) (xy 153.67 95.25)
+			(xy 104.14 82.55) (xy 119.38 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e21d1b5-d8f5-458f-84e5-494e0ef20285")
+		(uuid "0a3f7e35-a06e-40f9-bbc8-88aa81dcc737")
 	)
 	(wire
 		(pts
-			(xy 171.45 100.33) (xy 171.45 104.14)
+			(xy 191.77 137.16) (xy 187.96 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c310806-d6a8-4521-9f21-33ad6d9482be")
+		(uuid "115bd02e-74c5-41b8-a9f1-c3a136c2d2d4")
 	)
 	(wire
 		(pts
-			(xy 153.67 101.6) (xy 153.67 104.14)
+			(xy 130.81 125.73) (xy 130.81 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33ae4cdb-3c3d-4c19-bdeb-90dbbfe19991")
+		(uuid "1165e334-887c-484c-8664-e4cc55583eb4")
 	)
 	(wire
 		(pts
-			(xy 133.35 92.71) (xy 135.89 92.71)
+			(xy 83.82 82.55) (xy 95.25 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f0d7381-a1c2-42f4-9ef1-122181b37dc0")
+		(uuid "14c82e07-d370-4717-8351-db8dd5d852d2")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 171.45 85.09) (xy 171.45 90.17)
+			(xy 187.96 119.126) (xy 187.96 120.142)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e5be3e6-0cef-43cb-ab58-bc369ae98db2")
+		(uuid "15940899-4054-4d8b-8d53-1621657e6b69")
 	)
 	(wire
 		(pts
-			(xy 140.97 115.57) (xy 171.45 115.57)
+			(xy 134.62 100.33) (xy 134.62 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e500b25-d36b-493b-a5c3-dbeb43bb2d00")
+		(uuid "1a64ba4b-3338-471e-88ae-b435d4b71f28")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 140.97 86.36) (xy 140.97 87.63)
+			(xy 187.96 121.412) (xy 187.96 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9702ab3a-530e-4073-931a-8237d65080ba")
+		(uuid "1fb3fbca-a81e-4ecb-b951-774017ac793a")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 153.67 95.25) (xy 153.67 96.52)
+			(xy 186.944 121.412) (xy 189.23 121.412)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9df79930-38fa-42ea-a7b2-a08744a67cb6")
+		(uuid "25b66e9c-3958-4aa1-b305-be9b2c2a2d5a")
 	)
 	(wire
 		(pts
-			(xy 153.67 95.25) (xy 154.94 95.25)
+			(xy 165.1 97.79) (xy 165.1 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a64608b7-d203-4b5c-a118-ceaa048ae1fd")
+		(uuid "2665b0c9-f199-42a0-86d0-0fbf22a8d8af")
 	)
 	(wire
 		(pts
-			(xy 133.35 115.57) (xy 140.97 115.57)
+			(xy 156.21 88.9) (xy 156.21 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0f270db-4df5-475d-8689-eeec35e6ba18")
+		(uuid "27bd098d-2c1c-415c-9336-9bbf3daaca2d")
 	)
 	(wire
 		(pts
-			(xy 135.89 104.14) (xy 153.67 104.14)
+			(xy 95.25 109.22) (xy 95.25 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8e52c63-7221-44a9-9c29-81220f396c43")
+		(uuid "2b770da0-bf2d-4a49-bb1b-88abe77810f5")
 	)
 	(wire
 		(pts
-			(xy 135.89 104.14) (xy 135.89 97.79)
+			(xy 104.14 106.68) (xy 104.14 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddd59cbe-67f2-4d78-be20-671161c8d0a1")
+		(uuid "2e476a46-a046-4b42-9b2b-b2773a898148")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 171.45 115.57) (xy 171.45 113.03)
+			(xy 186.944 120.142) (xy 188.976 120.142)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9ef0071-5aa4-4f80-a416-68bf89db963e")
+		(uuid "331bee2c-62f0-447e-af2d-6754638f20f7")
 	)
 	(wire
 		(pts
-			(xy 162.56 95.25) (xy 163.83 95.25)
+			(xy 119.38 82.55) (xy 165.1 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea232f7f-5edf-4eed-b206-b8867de87af1")
+		(uuid "457583ce-1f53-49fc-ba2e-9bf732755fbc")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 140.97 102.87) (xy 140.97 115.57)
+			(xy 187.96 127.254) (xy 188.722 127.254)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f82820b4-0386-42ef-87d7-30f118d6dc4c")
+		(uuid "46947f86-1645-4333-a8c9-31a561706c92")
 	)
-	(hierarchical_label "INTENSITY"
-		(shape input)
-		(at 133.35 92.71 180)
-		(fields_autoplaced yes)
+	(polyline
+		(pts
+			(xy 187.96 125.73) (xy 187.96 127.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47188c55-eed6-416e-9688-c0d6c6d690f3")
+	)
+	(polyline
+		(pts
+			(xy 187.96 125.476) (xy 187.96 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a59ecae-6386-4fdd-ab5e-b76e7da9cf87")
+	)
+	(wire
+		(pts
+			(xy 104.14 82.55) (xy 104.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "503670ec-bcd7-4710-bfe2-719ca6c9d3c6")
+	)
+	(wire
+		(pts
+			(xy 139.7 95.25) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518682dc-edcd-4c46-ac67-51c3402d2215")
+	)
+	(wire
+		(pts
+			(xy 144.78 101.6) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53edeab7-7ec4-457d-aeed-4db1a405fdc5")
+	)
+	(wire
+		(pts
+			(xy 130.81 111.76) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56675699-f7a6-4119-ba92-478353de8e57")
+	)
+	(polyline
+		(pts
+			(xy 187.198 118.872) (xy 188.722 118.872)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef6efe7-4a4f-4a6c-88c9-f638b2f748e7")
+	)
+	(wire
+		(pts
+			(xy 119.38 114.3) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0fdb5b-d3ef-46bd-b845-e122a757a2f7")
+	)
+	(polyline
+		(pts
+			(xy 187.198 127.254) (xy 187.96 127.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650f7771-cde3-4dcb-8b28-9b5cf85f753d")
+	)
+	(wire
+		(pts
+			(xy 95.25 82.55) (xy 95.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd7686c-5f09-4939-b8c2-3975d8d43237")
+	)
+	(wire
+		(pts
+			(xy 175.26 109.22) (xy 180.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5a1be7-4b9a-4464-a21c-46d83507e41a")
+	)
+	(wire
+		(pts
+			(xy 175.26 97.79) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72518372-d165-4bac-abe1-d9ff01d8bf84")
+	)
+	(polyline
+		(pts
+			(xy 187.96 129.54) (xy 187.96 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750a82c9-cdd7-4668-a0b6-d74d7a3a04c5")
+	)
+	(wire
+		(pts
+			(xy 187.96 82.55) (xy 175.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772d02bb-9d07-48bb-af7f-365e6f2b9f66")
+	)
+	(wire
+		(pts
+			(xy 165.1 125.73) (xy 130.81 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc71f45-6e5e-4d78-ab6c-5dc743579f6e")
+	)
+	(polyline
+		(pts
+			(xy 187.198 129.54) (xy 188.722 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a7af54-586e-45ba-a383-e16518d039d7")
+	)
+	(polyline
+		(pts
+			(xy 186.944 119.126) (xy 189.23 119.126)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86412a9f-25fe-48ca-8f96-858b4738b4d9")
+	)
+	(polyline
+		(pts
+			(xy 188.722 127.254) (xy 188.722 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880162fb-271e-4cf3-9d5b-8b907005a555")
+	)
+	(wire
+		(pts
+			(xy 187.96 133.35) (xy 191.77 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d63c88d-92c1-4d71-8807-186e61b51136")
+	)
+	(wire
+		(pts
+			(xy 187.96 92.71) (xy 187.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcdb09e-0158-4f2e-b359-a2472bfa543e")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 134.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c471fb-956c-46c9-8bc0-c8be017bd432")
+	)
+	(wire
+		(pts
+			(xy 119.38 106.68) (xy 123.19 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996f326e-d7a8-43a2-a5e9-00079ffa7f79")
+	)
+	(wire
+		(pts
+			(xy 104.14 106.68) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab8fecf-0909-4dcc-93d5-16e3699971d6")
+	)
+	(polyline
+		(pts
+			(xy 187.198 127.254) (xy 187.198 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c7501ed-f456-4d67-9b52-b743d81956a9")
+	)
+	(wire
+		(pts
+			(xy 138.43 116.84) (xy 139.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eddfe35-c011-4601-aa57-ba705ab5d3d4")
+	)
+	(wire
+		(pts
+			(xy 138.43 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1445358-ba4a-40aa-a930-3424868905c2")
+	)
+	(wire
+		(pts
+			(xy 139.7 95.25) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7fd829a-7727-4173-b1bd-747493b31386")
+	)
+	(wire
+		(pts
+			(xy 119.38 121.92) (xy 119.38 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7b3695-8408-4260-9ef1-9e02651cbb7a")
+	)
+	(polyline
+		(pts
+			(xy 187.96 120.142) (xy 189.23 121.412)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc9b55f-e5c1-426a-9ca5-67ccfccb20c6")
+	)
+	(wire
+		(pts
+			(xy 104.14 97.79) (xy 104.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1d2f34-b3af-4271-9270-69f009ebdcda")
+	)
+	(wire
+		(pts
+			(xy 165.1 82.55) (xy 165.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad654413-9bd7-4050-b779-6a6e802ce68c")
+	)
+	(wire
+		(pts
+			(xy 123.19 106.68) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ba5eb9-cd11-4ca9-8426-de60c0ad7cd8")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba4a5f71-5bd0-4180-a7f3-5b403feb4283")
+	)
+	(wire
+		(pts
+			(xy 119.38 82.55) (xy 119.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc0dd276-1bc2-4f00-a8d7-868e184acfad")
+	)
+	(wire
+		(pts
+			(xy 175.26 82.55) (xy 165.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c224056a-da11-42fa-8874-b9f35f7d67d5")
+	)
+	(polyline
+		(pts
+			(xy 187.96 120.142) (xy 186.69 121.412)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3408da7-5eea-4bf6-8514-a8d6500e0853")
+	)
+	(wire
+		(pts
+			(xy 187.96 137.16) (xy 187.96 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c416c15b-1789-447a-9b69-8023a8c182c6")
+	)
+	(wire
+		(pts
+			(xy 119.38 97.79) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b03526-425a-4ce2-8bc1-a021f1095355")
+	)
+	(polyline
+		(pts
+			(xy 186.69 121.412) (xy 186.944 121.412)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cedc72ec-16a7-4fea-8e17-74d9185bbd01")
+	)
+	(wire
+		(pts
+			(xy 119.38 133.35) (xy 187.96 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11639d5-ea12-4e82-ad7d-9fb642abdeb2")
+	)
+	(wire
+		(pts
+			(xy 85.09 133.35) (xy 95.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38e7f44-afb1-4f5c-9d2f-c8a838416ff7")
+	)
+	(wire
+		(pts
+			(xy 175.26 82.55) (xy 175.26 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d611c40a-95fa-40d7-a643-db823ad04f1a")
+	)
+	(polyline
+		(pts
+			(xy 187.452 118.618) (xy 188.468 118.618)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81a7acd-2c08-4896-a28e-14e933647dda")
+	)
+	(wire
+		(pts
+			(xy 187.96 114.3) (xy 187.96 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf9aeb2-689f-4d50-a711-5de4259b5fdb")
+	)
+	(wire
+		(pts
+			(xy 187.96 97.79) (xy 187.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfac0824-f53d-499f-8a1a-6e4f4e1281f7")
+	)
+	(wire
+		(pts
+			(xy 191.77 125.73) (xy 165.1 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40692c7-bb94-4fa4-9c3f-a0b0eb87715b")
+	)
+	(wire
+		(pts
+			(xy 143.51 88.9) (xy 156.21 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed02f07d-a6c1-4fd9-b491-9fafeb4793eb")
+	)
+	(wire
+		(pts
+			(xy 95.25 133.35) (xy 104.14 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f84b9e-2491-4c58-8a63-1df1fe914254")
+	)
+	(wire
+		(pts
+			(xy 104.14 120.65) (xy 104.14 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ba50ed-e276-45b5-acfb-29a23274bade")
+	)
+	(wire
+		(pts
+			(xy 104.14 133.35) (xy 119.38 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c17a74-58f3-425b-8108-7a027a6cfdd2")
+	)
+	(wire
+		(pts
+			(xy 134.62 95.25) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f886cd06-8646-400e-9ea1-8d5960a30d37")
+	)
+	(wire
+		(pts
+			(xy 156.21 109.22) (xy 158.75 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd797596-f7a3-4839-94e6-60a6271ee025")
+	)
+	(text "LD power control with MD feedback delivers constant power despite the LD output dependence on temperature"
+		(exclude_from_sim no)
+		(at 138.176 143.256 0)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
-			(justify right)
 		)
-		(uuid "350e1837-985d-4b17-b5c3-2f2f062d4b68")
+		(uuid "8fd18eee-3782-48e2-b8f4-fe206e5ba055")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "DVD_LD"
 		(shape input)
-		(at 133.35 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "43c02cb9-f57c-46aa-89e9-8cc3c90cbb4d")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 140.97 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "6455a813-e583-454f-8380-804c503a5731")
-	)
-	(hierarchical_label "LD_LOW_SIDE"
-		(shape output)
-		(at 171.45 85.09 0)
+		(at 187.96 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1042,172 +2109,129 @@
 			)
 			(justify left)
 		)
-		(uuid "b1db4c93-4afd-433b-94f9-aec00938fd24")
+		(uuid "00824e63-0588-43c0-9b67-47446e26bfe7")
 	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6022")
-		(at 106.68 69.85 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 138.43 116.84 180)
 		(fields_autoplaced yes)
-		(uuid "2c83ec90-8c46-49fc-a289-e2c1ebab8708")
-		(property "Reference" "U5"
-			(at 106.68 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(effects
+			(font
+				(size 1.524 1.524)
 			)
+			(justify right)
 		)
-		(property "Value" "MCP6022"
-			(at 106.68 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "2ba7cd23-bed6-4e57-a38e-5c6ed32a47c8")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 134.62 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
 			)
+			(justify right)
 		)
-		(property "Footprint" ""
-			(at 106.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "3a38fd66-c3c0-4af9-8d50-1a00e41593d7")
+	)
+	(hierarchical_label "MD"
+		(shape input)
+		(at 191.77 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
 			)
+			(justify left)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
-			(at 106.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "3c57625a-cdbd-42d3-bcd2-b08bdc5b5abc")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 83.82 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
 			)
+			(justify right)
 		)
-		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
-			(at 106.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "3d969c1e-4021-4945-8812-53705ab57067")
+	)
+	(hierarchical_label "VR-DVD"
+		(shape input)
+		(at 191.77 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
 			)
+			(justify left)
 		)
-		(pin "8"
-			(uuid "bb8b3cc9-f207-45b9-9fa3-194070aa83bb")
-		)
-		(pin "3"
-			(uuid "9ccca887-bd99-492b-bce0-252d75b54005")
-		)
-		(pin "2"
-			(uuid "a09e2a5d-fb4f-4a27-b288-3981eef03397")
-		)
-		(pin "1"
-			(uuid "b217f9b9-33ce-4e1c-b03f-2c15559632af")
-		)
-		(pin "4"
-			(uuid "854d07c8-47e3-4595-9897-e2702502b472")
-		)
-		(pin "6"
-			(uuid "0cc7f362-b185-47fc-a3c3-0c01129bcbba")
-		)
-		(pin "5"
-			(uuid "766e6037-c6e5-4707-b40e-9cb9ff84a6eb")
-		)
-		(pin "7"
-			(uuid "1a693e66-5894-403d-a735-af7a6d6dcfd3")
-		)
-		(instances
-			(project "DVDLaserScanner"
-				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
-					(reference "U5")
-					(unit 2)
-				)
+		(uuid "ab67aca1-d761-4269-8375-329225957375")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 139.7 95.25 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
 			)
+			(justify left)
 		)
+		(uuid "bb43f6d8-f6c4-4172-a34a-8c49cd7e8f70")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 85.09 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "e0d19c13-4659-44ef-b804-30226ca38bd7")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 144.78 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "eda31b30-1344-4113-b9d8-4f1bb82024f5")
+	)
+	(hierarchical_label "GND_LD"
+		(shape input)
+		(at 191.77 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "f0a65a60-6185-4f49-b94f-9ee52b0247b4")
 	)
 	(symbol
-		(lib_id "DVDLaserScanner-rescue:R")
-		(at 158.75 95.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5eaa193a-344c-4235-a1e7-e28bd979a454")
-		(property "Reference" "R7"
-			(at 158.75 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R/5%"
-			(at 158.75 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "GaudiLabsFootPrints:0805G"
-			(at 158.75 93.472 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65fa1b4f-669d-43e8-adaf-5deccdbb3fb5")
-		)
-		(pin "2"
-			(uuid "8d42be07-41f2-4545-a3de-4a7111c7e7b4")
-		)
-		(instances
-			(project "DVDLaserScanner"
-				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 168.91 95.25 0)
+		(lib_id "Transistor_BJT:2N3905")
+		(at 185.42 109.22 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7796a585-cca5-41aa-b9a8-c865f8b07220")
+		(uuid "03d0c6f7-7db3-436a-8cfd-d26e5f8f525e")
 		(property "Reference" "Q1"
-			(at 175.26 93.9799 0)
+			(at 190.5 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,8 +2239,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138"
-			(at 175.26 96.5199 0)
+		(property "Value" "2N3905"
+			(at 190.5 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,8 +2248,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 173.99 97.155 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 190.5 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,8 +2259,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 173.99 99.06 0)
+		(property "Datasheet" "https://www.nteinc.com/specs/original/2N3905_06.pdf"
+			(at 185.42 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,8 +2269,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 168.91 95.25 0)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 185.42 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1254,14 +2278,14 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "a966ddac-ae70-45d2-9dae-fe1bb7a85838")
+		(pin "3"
+			(uuid "cf421ca7-68e4-41da-bcd4-9bf3ac8f0a35")
 		)
 		(pin "2"
-			(uuid "d2a2edfb-ba10-4839-84d7-1dd51aed8221")
+			(uuid "39962bf7-a864-4c1d-9e3c-601b05b38796")
 		)
-		(pin "3"
-			(uuid "a9942ec8-52b1-4df5-a875-739eff15f28c")
+		(pin "1"
+			(uuid "756d4280-dd57-499a-b6f6-d0de67464d3e")
 		)
 		(instances
 			(project "DVDLaserScanner"
@@ -1273,16 +2297,16 @@
 		)
 	)
 	(symbol
-		(lib_id "DVDLaserScanner-rescue:C_Small")
-		(at 153.67 99.06 0)
+		(lib_id "Device:R_Small_US")
+		(at 119.38 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "92d027a4-2193-45f7-b0e2-b74387d4375f")
-		(property "Reference" "C4"
-			(at 149.606 99.06 0)
+		(uuid "1559a3ea-93df-4f43-8ae7-6e007811d374")
+		(property "Reference" "R18"
+			(at 121.412 93.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1290,8 +2314,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 156.21 99.06 0)
+		(property "Value" "10k"
+			(at 117.094 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,8 +2323,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GaudiLabsFootPrints:0805G"
-			(at 153.67 99.06 0)
+		(property "Footprint" ""
+			(at 119.38 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,16 +2332,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 153.67 99.06 0)
+		(property "Datasheet" "~"
+			(at 119.38 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 99.06 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 119.38 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,47 +2351,50 @@
 			)
 		)
 		(pin "1"
-			(uuid "b690bb27-bfc9-4dc7-97d1-a3a8d4ca432f")
+			(uuid "8dfa277f-cc9d-4079-8239-2351c56c10d9")
 		)
 		(pin "2"
-			(uuid "18ee70a8-7b3b-4559-aef8-f8d8c4c6a88d")
+			(uuid "10fe36db-404c-4d44-9bf6-80e85e183ef4")
 		)
 		(instances
 			(project "DVDLaserScanner"
 				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
-					(reference "C4")
+					(reference "R18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "DVDLaserScanner-rescue:R")
-		(at 171.45 109.22 180)
+		(lib_id "DVDLaserScanner-rescue:CP_Small")
+		(at 95.25 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "df3f7138-e0a9-46da-b32c-d00f7bb2bea7")
-		(property "Reference" "R10"
-			(at 168.529 109.22 90)
+		(fields_autoplaced yes)
+		(uuid "390271df-1457-4e9c-bb0e-9e96efa5efcc")
+		(property "Reference" "C6"
+			(at 97.79 104.8638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10R/1%"
-			(at 166.2176 109.22 90)
+		(property "Value" "100uF"
+			(at 97.79 107.4038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "GaudiLabsFootPrints:0805G"
-			(at 173.228 109.22 90)
+		(property "Footprint" ""
+			(at 95.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1375,15 +2403,16 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 109.22 0)
+			(at 95.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 171.45 109.22 0)
+			(at 95.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,10 +2421,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1984394-14ab-4ae7-b60e-948aa2256e0d")
+			(uuid "5081882a-af0d-4469-8469-f0cee7d0e10e")
 		)
 		(pin "2"
-			(uuid "906e1bb1-9463-4095-87a4-c4aa06a3bc05")
+			(uuid "5545e9d5-5b94-4e09-b057-c787d674472d")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 165.1 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41835432-64e1-420b-a57f-1f13b5f90040")
+		(property "Reference" "R10"
+			(at 163.068 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2M"
+			(at 167.386 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "621d2bf8-ebac-42b4-8866-a85c04fb7222")
+		)
+		(pin "2"
+			(uuid "f44ec7ba-d8ba-41f1-8c24-bb70c85a5303")
 		)
 		(instances
 			(project "DVDLaserScanner"
@@ -1407,119 +2505,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6022")
-		(at 143.51 95.25 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef95a672-a118-49df-b470-8444a875d7c0")
-		(property "Reference" "U5"
-			(at 142.494 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP6022"
-			(at 142.494 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
-			(at 143.51 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
-			(at 143.51 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "bb8b3cc9-f207-45b9-9fa3-194070aa83bc")
-		)
-		(pin "3"
-			(uuid "9ccca887-bd99-492b-bce0-252d75b54006")
-		)
-		(pin "2"
-			(uuid "a09e2a5d-fb4f-4a27-b288-3981eef03398")
-		)
-		(pin "1"
-			(uuid "b217f9b9-33ce-4e1c-b03f-2c15559632b0")
-		)
-		(pin "4"
-			(uuid "854d07c8-47e3-4595-9897-e2702502b473")
-		)
-		(pin "6"
-			(uuid "0cc7f362-b185-47fc-a3c3-0c01129bcbbb")
-		)
-		(pin "5"
-			(uuid "766e6037-c6e5-4707-b40e-9cb9ff84a6ec")
-		)
-		(pin "7"
-			(uuid "1a693e66-5894-403d-a735-af7a6d6dcfd4")
-		)
-		(instances
-			(project "DVDLaserScanner"
-				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
-					(reference "U5")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6022")
-		(at 143.51 95.25 0)
+		(lib_id "Device:R_Small_US")
+		(at 161.29 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f99b0017-4f3d-4951-9f23-483e21a4fd46")
-		(property "Reference" "U5"
-			(at 144.78 88.646 0)
+		(uuid "46a15944-30d4-4342-8867-888963bd6ae6")
+		(property "Reference" "R9"
+			(at 162.306 111.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "MCP6022"
-			(at 146.558 90.424 0)
+		(property "Value" "1k"
+			(at 162.306 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 95.25 0)
+			(at 161.29 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1527,8 +2540,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
-			(at 143.51 95.25 0)
+		(property "Datasheet" "~"
+			(at 161.29 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,75 +2549,283 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
-			(at 143.51 95.25 0)
+		(property "Description" "Resistor, small US symbol"
+			(at 161.29 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "8"
-			(uuid "bb8b3cc9-f207-45b9-9fa3-194070aa83bd")
-		)
-		(pin "3"
-			(uuid "9ccca887-bd99-492b-bce0-252d75b54007")
-		)
-		(pin "2"
-			(uuid "a09e2a5d-fb4f-4a27-b288-3981eef03399")
 		)
 		(pin "1"
-			(uuid "b217f9b9-33ce-4e1c-b03f-2c15559632b1")
+			(uuid "34bcc19f-d976-4073-a5ec-3ccf4c62d7f9")
 		)
-		(pin "4"
-			(uuid "854d07c8-47e3-4595-9897-e2702502b474")
-		)
-		(pin "6"
-			(uuid "0cc7f362-b185-47fc-a3c3-0c01129bcbbc")
-		)
-		(pin "5"
-			(uuid "766e6037-c6e5-4707-b40e-9cb9ff84a6ed")
-		)
-		(pin "7"
-			(uuid "1a693e66-5894-403d-a735-af7a6d6dcfd5")
+		(pin "2"
+			(uuid "4e01d881-6986-4081-b7b7-8f2f6578b30e")
 		)
 		(instances
 			(project "DVDLaserScanner"
 				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
-					(reference "U5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "DVDLaserScanner-rescue:R")
-		(at 161.29 104.14 270)
+		(lib_id "Connector:TestPoint")
+		(at 123.19 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ff8a3857-d226-4c9c-8dbe-aac32abf24c8")
-		(property "Reference" "R9"
-			(at 161.544 106.426 90)
+		(uuid "553ef5fd-03e9-4d2f-bd8c-7c839fdc042b")
+		(property "Reference" "TP1"
+			(at 121.92 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1k/5%"
-			(at 161.544 108.204 90)
+		(property "Value" "APC_REF"
+			(at 119.888 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "GaudiLabsFootPrints:0805G"
-			(at 161.29 102.362 90)
+		(property "Footprint" ""
+			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71754aa5-4ec4-4527-b58e-69060cb97dea")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 104.14 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e88e18b-c7b5-451b-a91a-dcd2f3605388")
+		(property "Reference" "R39"
+			(at 106.172 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 101.854 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4105276f-3af6-470e-8365-9d92dee114e0")
+		)
+		(pin "2"
+			(uuid "cac1364d-3cc3-430d-85f5-96f3d9f04b64")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6022")
+		(at 137.16 109.22 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68d6565a-6c91-477d-a7ac-a801977de98c")
+		(property "Reference" "U4"
+			(at 143.51 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MCP6022"
+			(at 143.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0747c108-0c5d-4a00-8305-17cbb86807fd")
+		)
+		(pin "3"
+			(uuid "c4095eb0-5b26-437f-8d05-ada9c647474b")
+		)
+		(pin "2"
+			(uuid "6d4d9894-2d39-4da9-8cb2-fd7bd6847873")
+		)
+		(pin "5"
+			(uuid "451b4a12-4d1c-4c03-84a3-69cce879854d")
+		)
+		(pin "1"
+			(uuid "49544d6d-e258-4a8d-b872-ddd00e99d3d4")
+		)
+		(pin "7"
+			(uuid "f355cb2b-312b-431e-9f6e-94460bcb99b1")
+		)
+		(pin "8"
+			(uuid "5ce2f1b7-9d07-4332-acde-005ff577e244")
+		)
+		(pin "6"
+			(uuid "af46c4a7-bcca-4c2a-90b0-6489761bb9d4")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:CP_Small")
+		(at 175.26 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78ae4352-91af-40e2-9772-3968b323b762")
+		(property "Reference" "C14"
+			(at 177.8 93.4338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 177.8 95.9738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,15 +2834,16 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 104.14 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 161.29 104.14 0)
+			(at 175.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,15 +2852,516 @@
 			)
 		)
 		(pin "1"
-			(uuid "40eb27b6-c82c-41e9-937e-8063a96fce90")
+			(uuid "9f07bf3f-9197-48d8-bd26-15a2dfd68f92")
 		)
 		(pin "2"
-			(uuid "3317b27b-6c1a-48ca-9ce4-3f5012c2cd29")
+			(uuid "35adc513-494a-4311-8f09-77dd3554bf1f")
 		)
 		(instances
 			(project "DVDLaserScanner"
 				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
-					(reference "R9")
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6022")
+		(at 142.24 109.22 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8261dcee-81fe-41f6-bac6-a0d34c3bbf57")
+		(property "Reference" "U4"
+			(at 144.526 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6022"
+			(at 146.558 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0747c108-0c5d-4a00-8305-17cbb86807fd")
+		)
+		(pin "3"
+			(uuid "c4095eb0-5b26-437f-8d05-ada9c647474b")
+		)
+		(pin "2"
+			(uuid "6d4d9894-2d39-4da9-8cb2-fd7bd6847873")
+		)
+		(pin "5"
+			(uuid "451b4a12-4d1c-4c03-84a3-69cce879854d")
+		)
+		(pin "1"
+			(uuid "49544d6d-e258-4a8d-b872-ddd00e99d3d4")
+		)
+		(pin "7"
+			(uuid "f355cb2b-312b-431e-9f6e-94460bcb99b1")
+		)
+		(pin "8"
+			(uuid "5ce2f1b7-9d07-4332-acde-005ff577e244")
+		)
+		(pin "6"
+			(uuid "af46c4a7-bcca-4c2a-90b0-6489761bb9d4")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 187.96 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "895153a2-fe5c-443f-8d28-77dbc7dd63c7")
+		(property "Reference" "R16"
+			(at 185.928 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6R8"
+			(at 190.246 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 187.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8475fbab-cae3-46c5-a36b-3465acf90343")
+		)
+		(pin "2"
+			(uuid "eadf03e9-a177-47f1-97e3-0fde37f9ceb5")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Variable_US")
+		(at 119.38 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "896b3da6-1ccd-4ef2-9d07-5200e5b5049c")
+		(property "Reference" "R17"
+			(at 122.682 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k2"
+			(at 122.428 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.602 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Variable resistor, US symbol"
+			(at 119.38 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1806b6b1-7534-4c2a-bb48-5c4a63bf89a8")
+		)
+		(pin "1"
+			(uuid "e02955b0-2544-4349-a401-aa07d69e04db")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 140.97 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd9b85da-f9ca-4415-900d-1044f548b5ee")
+		(property "Reference" "R7"
+			(at 142.494 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "820k"
+			(at 142.748 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "572ab890-d2cb-4d3a-916e-b8ae5b8ca3f0")
+		)
+		(pin "2"
+			(uuid "90a1b5e2-3d8c-479d-ba5a-f5e04b303eae")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 104.14 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2901690-1418-4279-ab36-3c9afe16a346")
+		(property "Reference" "D1"
+			(at 106.68 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMSZ4679-TP"
+			(at 106.68 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 104.14 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmsz4678t1-d.pdf"
+			(at 104.14 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 104.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "502ab98c-59f1-412e-9ce3-c737195d7445")
+		)
+		(pin "1"
+			(uuid "c28da4b6-1c78-4cb9-9fdc-3e29b2878bf9")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:CP_Small")
+		(at 134.62 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3d0f23d-0f2c-4606-941d-365116befd65")
+		(property "Reference" "C15"
+			(at 129.54 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 128.016 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b091733-d48c-4e74-a2a8-b972287461e6")
+		)
+		(pin "1"
+			(uuid "08dee499-588d-4bdc-915d-50888e55abfa")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DVDLaserScanner-rescue:C_Small")
+		(at 144.78 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9f7f13d-31cd-40c0-87a0-24e76dc1697b")
+		(property "Reference" "C16"
+			(at 147.574 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 146.812 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc926c99-5aed-46a2-988a-3191f17c64bc")
+		)
+		(pin "1"
+			(uuid "a5817621-5bc8-4314-866d-229d97601761")
+		)
+		(instances
+			(project "DVDLaserScanner"
+				(path "/052f44d0-356a-4774-847b-27558aa4429e/7721833c-3574-4248-84cf-0edd7cdc12ca"
+					(reference "C16")
 					(unit 1)
 				)
 			)
